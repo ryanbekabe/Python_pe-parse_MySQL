@@ -1,5 +1,3 @@
-README.md
-
 1. Buat database dari: pe_parse_db.sql
 
 2. Rename 3 file menjadi ekstensi aslinya: dump-pe.exe; dump-pe.so; pe-parse.dll
