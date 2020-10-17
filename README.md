@@ -4,6 +4,8 @@
 
 3. Menggunakan Python dengan modul mysql.connector: pip install mysql.connector
 
+4. Letakkan file MD5 .exe ke folder: exe
+
 ----
 
 http://hanyajasa.com | bekabeipa@gmail.com | 17/10/2020, Palangka Raya, Indonesia.
