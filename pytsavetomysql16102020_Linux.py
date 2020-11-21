@@ -16,6 +16,7 @@ connection = mysql.connector.connect(host='localhost', database='pe_parse_db', u
 
 path = "./exe/"
 arr = os.listdir(path)
+arr.sort()
 i=0
 for filenya in arr:
 	i=i+1
