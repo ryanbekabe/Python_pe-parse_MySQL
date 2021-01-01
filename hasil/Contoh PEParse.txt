@@ -1,0 +1,5711 @@
+PE-Parse: 02263a0c8cb038dc23562918ca99b18e
+dos.e_magic: 0x5a4d
+dos.e_cp: 0x3
+dos.e_crlc: 0x0
+dos.e_cparhdr: 0x4
+dos.e_minalloc: 0x0
+dos.e_maxalloc: 0xffff
+dos.e_ss: 0x0
+dos.e_sp: 0xb8
+dos.e_csum: 0x0
+dos.e_ip: 0x0
+dos.e_cs: 0x0
+dos.e_lfarlc: 0x40
+dos.e_ovno: 0x0
+dos.e_res[0]: 0x0
+dos.e_res[1]: 0x0
+dos.e_res[2]: 0x0
+dos.e_res[3]: 0x0
+dos.e_oemid: 0x0
+dos.e_oeminfo: 0x0
+dos.e_res2[0]: 0x0
+dos.e_res2[1]: 0x0
+dos.e_res2[2]: 0x0
+dos.e_res2[3]: 0x0
+dos.e_res2[4]: 0x0
+dos.e_res2[5]: 0x0
+dos.e_res2[6]: 0x0
+dos.e_res2[7]: 0x0
+dos.e_res2[8]: 0x0
+dos.e_res2[9]: 0x0
+dos.e_lfanew: 0x80
+rich.isPresent: false
+nt.Signature: 0x4550
+nt.FileHeader.Machine: 0x14c
+nt.FileHeader.NumberOfSections: 0xf
+nt.FileHeader.TimeDateStamp: 1605675219
+nt.FileHeader.PointerToSymbolTable: 0x12c00
+nt.FileHeader.NumberOfSymbols: 1264
+nt.FileHeader.SizeOfOptionalHeader: 0xe0
+nt.FileHeader.Characteristics: 0x107
+nt.OptionalHeader.Magic: 0x10b
+nt.OptionalHeader.MajorLinkerVersion: 2
+nt.OptionalHeader.MinorLinkerVersion: 24
+nt.OptionalHeader.SizeOfCode: 0x1800
+nt.OptionalHeader.SizeOfInitializedData: 0x1200
+nt.OptionalHeader.SizeOfUninitializedData: 0x600
+nt.OptionalHeader.AddressOfEntryPoint: 0x14e0
+nt.OptionalHeader.BaseOfCode: 0x1000
+nt.OptionalHeader.BaseOfData: 0x3000
+nt.OptionalHeader.ImageBase: 0x400000
+nt.OptionalHeader.SectionAlignment: 0x1000
+nt.OptionalHeader.FileAlignment: 0x200
+nt.OptionalHeader.MajorOperatingSystemVersion: 4
+nt.OptionalHeader.MinorOperatingSystemVersion: 0
+nt.OptionalHeader.Win32VersionValue: 0
+nt.OptionalHeader.SizeOfImage: 0x1d000
+nt.OptionalHeader.SizeOfHeaders: 0x400
+nt.OptionalHeader.CheckSum: 0x23c93
+nt.OptionalHeader.Subsystem: 0x3
+nt.OptionalHeader.DllCharacteristics: 0x0
+nt.OptionalHeader.SizeOfStackReserve: 0x200000
+nt.OptionalHeader.SizeOfStackCommit: 0x1000
+nt.OptionalHeader.SizeOfHeapReserve: 0x100000
+nt.OptionalHeader.SizeOfHeapCommit: 0x1000
+nt.OptionalHeader.LoaderFlags: 0x0
+nt.OptionalHeader.NumberOfRvaAndSizes: 16
+Imports: 
+0x406104 KERNEL32.DLL!DeleteCriticalSection
+0x406108 KERNEL32.DLL!EnterCriticalSection
+0x40610c KERNEL32.DLL!GetCurrentProcess
+0x406110 KERNEL32.DLL!GetCurrentProcessId
+0x406114 KERNEL32.DLL!GetCurrentThreadId
+0x406118 KERNEL32.DLL!GetLastError
+0x40611c KERNEL32.DLL!GetStartupInfoA
+0x406120 KERNEL32.DLL!GetSystemTimeAsFileTime
+0x406124 KERNEL32.DLL!GetTickCount
+0x406128 KERNEL32.DLL!InitializeCriticalSection
+0x40612c KERNEL32.DLL!LeaveCriticalSection
+0x406130 KERNEL32.DLL!QueryPerformanceCounter
+0x406134 KERNEL32.DLL!SetUnhandledExceptionFilter
+0x406138 KERNEL32.DLL!Sleep
+0x40613c KERNEL32.DLL!TerminateProcess
+0x406140 KERNEL32.DLL!TlsGetValue
+0x406144 KERNEL32.DLL!UnhandledExceptionFilter
+0x406148 KERNEL32.DLL!VirtualProtect
+0x40614c KERNEL32.DLL!VirtualQuery
+0x406154 MSVCRT.DLL!__dllonexit
+0x406158 MSVCRT.DLL!__getmainargs
+0x40615c MSVCRT.DLL!__initenv
+0x406160 MSVCRT.DLL!__lconv_init
+0x406164 MSVCRT.DLL!__set_app_type
+0x406168 MSVCRT.DLL!__setusermatherr
+0x40616c MSVCRT.DLL!_acmdln
+0x406170 MSVCRT.DLL!_amsg_exit
+0x406174 MSVCRT.DLL!_cexit
+0x406178 MSVCRT.DLL!_fmode
+0x40617c MSVCRT.DLL!_initterm
+0x406180 MSVCRT.DLL!_iob
+0x406184 MSVCRT.DLL!_lock
+0x406188 MSVCRT.DLL!_onexit
+0x40618c MSVCRT.DLL!_unlock
+0x406190 MSVCRT.DLL!abort
+0x406194 MSVCRT.DLL!calloc
+0x406198 MSVCRT.DLL!exit
+0x40619c MSVCRT.DLL!fprintf
+0x4061a0 MSVCRT.DLL!free
+0x4061a4 MSVCRT.DLL!fwrite
+0x4061a8 MSVCRT.DLL!malloc
+0x4061ac MSVCRT.DLL!memcpy
+0x4061b0 MSVCRT.DLL!puts
+0x4061b4 MSVCRT.DLL!scanf
+0x4061b8 MSVCRT.DLL!signal
+0x4061bc MSVCRT.DLL!strlen
+0x4061c0 MSVCRT.DLL!strncmp
+0x4061c4 MSVCRT.DLL!vfprintf
+Relocations: 
+Symbols (symbol table): 
+Symbol Name: .file
+Symbol Value: 0x2d
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: ___mingw_invalidParameterHandler
+Symbol Value: 0x0
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: _pre_c_init
+Symbol Value: 0x10
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: _managedapp
+Symbol Value: 0x8
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: _pre_cpp_init
+Symbol Value: 0x130
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: _startinfo
+Symbol Value: 0x0
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: _envp
+Symbol Value: 0x14
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: _argv
+Symbol Value: 0x18
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: _argc
+Symbol Value: 0x1c
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: _argret
+Symbol Value: 0x10
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___tmainCRTStartup
+Symbol Value: 0x180
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: _has_cctor
+Symbol Value: 0x4
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: _mainret
+Symbol Value: 0xc
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: _WinMainCRTStartup
+Symbol Value: 0x4c0
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _mainCRTStartup
+Symbol Value: 0x4e0
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x0
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x0
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x0
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .CRT$XCAA
+Symbol Value: 0x4
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .CRT$XIAA
+Symbol Value: 0x10
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_info
+Symbol Value: 0x0
+Symbol Section Number: 9
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_abbrev
+Symbol Value: 0x0
+Symbol Section Number: a
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_loc
+Symbol Value: 0x0
+Symbol Section Number: e
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_aranges
+Symbol Value: 0x0
+Symbol Section Number: 8
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_ranges
+Symbol Value: 0x0
+Symbol Section Number: f
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_line
+Symbol Value: 0x0
+Symbol Section Number: b
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_str
+Symbol Value: 0x0
+Symbol Section Number: d
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata$zzz
+Symbol Value: 0x260
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_frame
+Symbol Value: 0x0
+Symbol Section Number: c
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .file
+Symbol Value: 0x37
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: .text
+Symbol Value: 0x500
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x4
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x20
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata$zzz
+Symbol Value: 0x274
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .file
+Symbol Value: 0x45
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: _main
+Symbol Value: 0x500
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 1
+Symbol Name: .text
+Symbol Value: 0x500
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x4
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x20
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata
+Symbol Value: 0x0
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata$zzz
+Symbol Value: 0x288
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .file
+Symbol Value: 0x77
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: ___dyn_tls_dtor@12
+Symbol Value: 0x550
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: ___dyn_tls_init@12
+Symbol Value: 0x5a0
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___xd_a
+Symbol Value: 0x2c
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___xd_z
+Symbol Value: 0x30
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___tlregdtor
+Symbol Value: 0x620
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x550
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x4
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x20
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .CRT$XLD
+Symbol Value: 0x24
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .CRT$XLC
+Symbol Value: 0x20
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata
+Symbol Value: 0x28
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .CRT$XDZ
+Symbol Value: 0x30
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .CRT$XDA
+Symbol Value: 0x2c
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .tls
+Symbol Value: 0x4
+Symbol Section Number: 7
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .CRT$XLZ
+Symbol Value: 0x28
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .CRT$XLA
+Symbol Value: 0x1c
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .tls$ZZZ
+Symbol Value: 0x1c
+Symbol Section Number: 7
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .tls$AAA
+Symbol Value: 0x0
+Symbol Section Number: 7
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_info
+Symbol Value: 0x239c
+Symbol Section Number: 9
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_abbrev
+Symbol Value: 0x46f
+Symbol Section Number: a
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_loc
+Symbol Value: 0x2e3
+Symbol Section Number: e
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_aranges
+Symbol Value: 0x20
+Symbol Section Number: 8
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_line
+Symbol Value: 0x332
+Symbol Section Number: b
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_str
+Symbol Value: 0x235
+Symbol Section Number: d
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata$zzz
+Symbol Value: 0x2a0
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_frame
+Symbol Value: 0xc0
+Symbol Section Number: c
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .file
+Symbol Value: 0x8f
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: _my_lconv_init
+Symbol Value: 0x630
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .text
+Symbol Value: 0x630
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x4
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x30
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .CRT$XIC
+Symbol Value: 0x14
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_info
+Symbol Value: 0x2a19
+Symbol Section Number: 9
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_abbrev
+Symbol Value: 0x61a
+Symbol Section Number: a
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_aranges
+Symbol Value: 0x40
+Symbol Section Number: 8
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_line
+Symbol Value: 0x440
+Symbol Section Number: b
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata$zzz
+Symbol Value: 0x2b4
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_frame
+Symbol Value: 0x12c
+Symbol Section Number: c
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .file
+Symbol Value: 0xa6
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: __decode_pointer
+Symbol Value: 0x640
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 1
+Symbol Name: __encode_pointer
+Symbol Value: 0x650
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x640
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x8
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x34
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_info
+Symbol Value: 0x2ee3
+Symbol Section Number: 9
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_abbrev
+Symbol Value: 0x6b4
+Symbol Section Number: a
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_aranges
+Symbol Value: 0x60
+Symbol Section Number: 8
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_line
+Symbol Value: 0x554
+Symbol Section Number: b
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata$zzz
+Symbol Value: 0x2c8
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_frame
+Symbol Value: 0x150
+Symbol Section Number: c
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .file
+Symbol Value: 0xb8
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: .text
+Symbol Value: 0x660
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x8
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x38
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_info
+Symbol Value: 0x33ad
+Symbol Section Number: 9
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_abbrev
+Symbol Value: 0x73b
+Symbol Section Number: a
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_aranges
+Symbol Value: 0x80
+Symbol Section Number: 8
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_line
+Symbol Value: 0x62b
+Symbol Section Number: b
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata$zzz
+Symbol Value: 0x2dc
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .file
+Symbol Value: 0xd1
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: _mingw_onexit
+Symbol Value: 0x660
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 1
+Symbol Name: _atexit
+Symbol Value: 0x720
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x660
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x8
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x3c
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_info
+Symbol Value: 0x3458
+Symbol Section Number: 9
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_abbrev
+Symbol Value: 0x765
+Symbol Section Number: a
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_loc
+Symbol Value: 0x362
+Symbol Section Number: e
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_aranges
+Symbol Value: 0x98
+Symbol Section Number: 8
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_line
+Symbol Value: 0x689
+Symbol Section Number: b
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata$zzz
+Symbol Value: 0x2f0
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_frame
+Symbol Value: 0x184
+Symbol Section Number: c
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .file
+Symbol Value: 0xe3
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: .text
+Symbol Value: 0x740
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x8
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x3c
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_info
+Symbol Value: 0x3aef
+Symbol Section Number: 9
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_abbrev
+Symbol Value: 0x8e0
+Symbol Section Number: a
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_aranges
+Symbol Value: 0xb8
+Symbol Section Number: 8
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_line
+Symbol Value: 0x7ca
+Symbol Section Number: b
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata$zzz
+Symbol Value: 0x304
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .file
+Symbol Value: 0xf5
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: .text
+Symbol Value: 0x740
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x8
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x40
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_info
+Symbol Value: 0x3b9c
+Symbol Section Number: 9
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_abbrev
+Symbol Value: 0x90a
+Symbol Section Number: a
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_aranges
+Symbol Value: 0xd0
+Symbol Section Number: 8
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_line
+Symbol Value: 0x828
+Symbol Section Number: b
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata$zzz
+Symbol Value: 0x318
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .file
+Symbol Value: 0x109
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: .text
+Symbol Value: 0x740
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x8
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x44
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_info
+Symbol Value: 0x3c4c
+Symbol Section Number: 9
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_abbrev
+Symbol Value: 0x934
+Symbol Section Number: a
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_aranges
+Symbol Value: 0xe8
+Symbol Section Number: 8
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_line
+Symbol Value: 0x886
+Symbol Section Number: b
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_str
+Symbol Value: 0x254
+Symbol Section Number: d
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata$zzz
+Symbol Value: 0x32c
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .file
+Symbol Value: 0x123
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: __gnu_exception_handler@4
+Symbol Value: 0x740
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 1
+Symbol Name: .text
+Symbol Value: 0x740
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x10
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x44
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_info
+Symbol Value: 0x416b
+Symbol Section Number: 9
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_abbrev
+Symbol Value: 0x9b6
+Symbol Section Number: a
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_loc
+Symbol Value: 0x38b
+Symbol Section Number: e
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_aranges
+Symbol Value: 0x100
+Symbol Section Number: 8
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_line
+Symbol Value: 0x98b
+Symbol Section Number: b
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_str
+Symbol Value: 0x26c
+Symbol Section Number: d
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata$zzz
+Symbol Value: 0x340
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_frame
+Symbol Value: 0x1dc
+Symbol Section Number: c
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .file
+Symbol Value: 0x13d
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: .text
+Symbol Value: 0x8e0
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x10
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x48
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .CRT$XCZ
+Symbol Value: 0x8
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .CRT$XCA
+Symbol Value: 0x0
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .CRT$XIZ
+Symbol Value: 0x18
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .CRT$XIA
+Symbol Value: 0xc
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_info
+Symbol Value: 0x4c84
+Symbol Section Number: 9
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_abbrev
+Symbol Value: 0xb40
+Symbol Section Number: a
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_aranges
+Symbol Value: 0x120
+Symbol Section Number: 8
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_line
+Symbol Value: 0xae8
+Symbol Section Number: b
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata$zzz
+Symbol Value: 0x354
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .file
+Symbol Value: 0x153
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: __setargv
+Symbol Value: 0x8e0
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 1
+Symbol Name: .text
+Symbol Value: 0x8e0
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x10
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x48
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_info
+Symbol Value: 0x4e0c
+Symbol Section Number: 9
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_abbrev
+Symbol Value: 0xb99
+Symbol Section Number: a
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_aranges
+Symbol Value: 0x138
+Symbol Section Number: 8
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_line
+Symbol Value: 0xb46
+Symbol Section Number: b
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata$zzz
+Symbol Value: 0x368
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_frame
+Symbol Value: 0x224
+Symbol Section Number: c
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .file
+Symbol Value: 0x171
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: ___mingw_raise_matherr
+Symbol Value: 0x8f0
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 1
+Symbol Name: _stUserMathErr
+Symbol Value: 0x48
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___mingw_setusermatherr
+Symbol Value: 0x940
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __matherr
+Symbol Value: 0x950
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _CSWTCH.5
+Symbol Value: 0x148
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x8f0
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x10
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x48
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata
+Symbol Value: 0x2c
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_info
+Symbol Value: 0x4f99
+Symbol Section Number: 9
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_abbrev
+Symbol Value: 0xbd0
+Symbol Section Number: a
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_loc
+Symbol Value: 0x4ed
+Symbol Section Number: e
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_aranges
+Symbol Value: 0x158
+Symbol Section Number: 8
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_line
+Symbol Value: 0xbb3
+Symbol Section Number: b
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata$zzz
+Symbol Value: 0x37c
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_frame
+Symbol Value: 0x248
+Symbol Section Number: c
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .file
+Symbol Value: 0x194
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: ___report_error
+Symbol Value: 0x9b0
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: _mark_section_writable
+Symbol Value: 0xa10
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: _maxSections
+Symbol Value: 0x50
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: _the_secs
+Symbol Value: 0x54
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: __pei386_runtime_relocator
+Symbol Value: 0xb50
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _was_init.60804
+Symbol Value: 0x4c
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x9b0
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x10
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x4c
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata
+Symbol Value: 0x160
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_info
+Symbol Value: 0x56a0
+Symbol Section Number: 9
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_abbrev
+Symbol Value: 0xd3e
+Symbol Section Number: a
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_loc
+Symbol Value: 0x500
+Symbol Section Number: e
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_aranges
+Symbol Value: 0x178
+Symbol Section Number: 8
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_ranges
+Symbol Value: 0x88
+Symbol Section Number: f
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_line
+Symbol Value: 0xcf5
+Symbol Section Number: b
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_str
+Symbol Value: 0x27c
+Symbol Section Number: d
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata$zzz
+Symbol Value: 0x390
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_frame
+Symbol Value: 0x29c
+Symbol Section Number: c
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .file
+Symbol Value: 0x1ab
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: __fpreset
+Symbol Value: 0xe10
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 1
+Symbol Name: _fpreset
+Symbol Value: 0xe10
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0xe10
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x10
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x58
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_info
+Symbol Value: 0x6734
+Symbol Section Number: 9
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_abbrev
+Symbol Value: 0x1064
+Symbol Section Number: a
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_aranges
+Symbol Value: 0x198
+Symbol Section Number: 8
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_line
+Symbol Value: 0xf34
+Symbol Section Number: b
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata$zzz
+Symbol Value: 0x3a4
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_frame
+Symbol Value: 0x33c
+Symbol Section Number: c
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .file
+Symbol Value: 0x1c7
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: ___do_global_dtors
+Symbol Value: 0xe20
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 1
+Symbol Name: _p.60020
+Symbol Value: 0x10
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___do_global_ctors
+Symbol Value: 0xe50
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___main
+Symbol Value: 0xea0
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _initialized
+Symbol Value: 0x58
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0xe20
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x10
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x58
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_info
+Symbol Value: 0x67e2
+Symbol Section Number: 9
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_abbrev
+Symbol Value: 0x108e
+Symbol Section Number: a
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_loc
+Symbol Value: 0x7f5
+Symbol Section Number: e
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_aranges
+Symbol Value: 0x1b8
+Symbol Section Number: 8
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_line
+Symbol Value: 0xfa2
+Symbol Section Number: b
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata$zzz
+Symbol Value: 0x3b8
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_frame
+Symbol Value: 0x360
+Symbol Section Number: c
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .file
+Symbol Value: 0x1eb
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: ___security_init_cookie
+Symbol Value: 0xec0
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data$__security_cookie
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data$__security_cookie_complement
+Symbol Value: 0x28
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: ___report_gsfailure
+Symbol Value: 0xf70
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _GS_ExceptionRecord
+Symbol Value: 0x380
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: _GS_ContextRecord
+Symbol Value: 0x80
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: _GS_ExceptionPointers
+Symbol Value: 0x258
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0xec0
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x14
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x80
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata
+Symbol Value: 0x258
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_info
+Symbol Value: 0x6d5e
+Symbol Section Number: 9
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_abbrev
+Symbol Value: 0x119f
+Symbol Section Number: a
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_loc
+Symbol Value: 0x849
+Symbol Section Number: e
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_aranges
+Symbol Value: 0x1d8
+Symbol Section Number: 8
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_line
+Symbol Value: 0x10b6
+Symbol Section Number: b
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_str
+Symbol Value: 0x285
+Symbol Section Number: d
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata$zzz
+Symbol Value: 0x3cc
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_frame
+Symbol Value: 0x3c0
+Symbol Section Number: c
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .file
+Symbol Value: 0x1fd
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: .text
+Symbol Value: 0x1000
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x14
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x400
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_info
+Symbol Value: 0x765e
+Symbol Section Number: 9
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_abbrev
+Symbol Value: 0x1347
+Symbol Section Number: a
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_aranges
+Symbol Value: 0x1f8
+Symbol Section Number: 8
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_line
+Symbol Value: 0x11d2
+Symbol Section Number: b
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata$zzz
+Symbol Value: 0x3e0
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .file
+Symbol Value: 0x21d
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: ___mingwthr_run_key_dtors.part.0
+Symbol Value: 0x1000
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: ___mingwthr_cs
+Symbol Value: 0x408
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: _key_dtor_list
+Symbol Value: 0x400
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: ____w64_mingwthr_add_key_dtor
+Symbol Value: 0x1070
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___mingwthr_cs_init
+Symbol Value: 0x404
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: ____w64_mingwthr_remove_key_dtor
+Symbol Value: 0x10f0
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___mingw_TLScallback
+Symbol Value: 0x1190
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x1000
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x18
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x400
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_info
+Symbol Value: 0x7709
+Symbol Section Number: 9
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_abbrev
+Symbol Value: 0x1371
+Symbol Section Number: a
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_loc
+Symbol Value: 0x90d
+Symbol Section Number: e
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_aranges
+Symbol Value: 0x210
+Symbol Section Number: 8
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_ranges
+Symbol Value: 0x148
+Symbol Section Number: f
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_line
+Symbol Value: 0x122f
+Symbol Section Number: b
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata$zzz
+Symbol Value: 0x3f4
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_frame
+Symbol Value: 0x44c
+Symbol Section Number: c
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .file
+Symbol Value: 0x22f
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: .text
+Symbol Value: 0x1230
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x18
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x420
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_info
+Symbol Value: 0x7efd
+Symbol Section Number: 9
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_abbrev
+Symbol Value: 0x151a
+Symbol Section Number: a
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_aranges
+Symbol Value: 0x230
+Symbol Section Number: 8
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_line
+Symbol Value: 0x13a5
+Symbol Section Number: b
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata$zzz
+Symbol Value: 0x408
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .file
+Symbol Value: 0x254
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: __ValidateImageBase.part.0
+Symbol Value: 0x1230
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: __ValidateImageBase
+Symbol Value: 0x1250
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __FindPESection
+Symbol Value: 0x1270
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __FindPESectionByName
+Symbol Value: 0x12b0
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___mingw_GetSectionForAddress
+Symbol Value: 0x1350
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___mingw_GetSectionCount
+Symbol Value: 0x13a0
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __FindPESectionExec
+Symbol Value: 0x13d0
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __GetPEImageBase
+Symbol Value: 0x1450
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __IsNonwritableInCurrentImage
+Symbol Value: 0x1480
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___mingw_enum_import_library_names
+Symbol Value: 0x14e0
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x1230
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x18
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x424
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_info
+Symbol Value: 0x7ff8
+Symbol Section Number: 9
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_abbrev
+Symbol Value: 0x1544
+Symbol Section Number: a
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_loc
+Symbol Value: 0xa0c
+Symbol Section Number: e
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_aranges
+Symbol Value: 0x248
+Symbol Section Number: 8
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_ranges
+Symbol Value: 0x178
+Symbol Section Number: f
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_line
+Symbol Value: 0x140c
+Symbol Section Number: b
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_str
+Symbol Value: 0x29e
+Symbol Section Number: d
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata$zzz
+Symbol Value: 0x41c
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_frame
+Symbol Value: 0x548
+Symbol Section Number: c
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .file
+Symbol Value: 0x266
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_info
+Symbol Value: 0x91b9
+Symbol Section Number: 9
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_abbrev
+Symbol Value: 0x1787
+Symbol Section Number: a
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_line
+Symbol Value: 0x15e7
+Symbol Section Number: b
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .text
+Symbol Value: 0x1580
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x18
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x424
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_aranges
+Symbol Value: 0x268
+Symbol Section Number: 8
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_frame
+Symbol Value: 0x714
+Symbol Section Number: c
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .file
+Symbol Value: 0x278
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: .text
+Symbol Value: 0x15ac
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x18
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x424
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_info
+Symbol Value: 0x9261
+Symbol Section Number: 9
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_abbrev
+Symbol Value: 0x179b
+Symbol Section Number: a
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_aranges
+Symbol Value: 0x288
+Symbol Section Number: 8
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_line
+Symbol Value: 0x1661
+Symbol Section Number: b
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata$zzz
+Symbol Value: 0x430
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .file
+Symbol Value: 0x2ad
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: .text
+Symbol Value: 0x15ac
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x18
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x424
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_info
+Symbol Value: 0x9f37
+Symbol Section Number: 9
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_abbrev
+Symbol Value: 0x180e
+Symbol Section Number: a
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_aranges
+Symbol Value: 0x2a0
+Symbol Section Number: 8
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_line
+Symbol Value: 0x1705
+Symbol Section Number: b
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata$zzz
+Symbol Value: 0x448
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .text
+Symbol Value: 0x15ac
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x1c
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x424
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x51c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x178
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0xb0
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x3de
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x15ac
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x1c
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x424
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x510
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x16c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0xa4
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x3bc
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x15ac
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x1c
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x424
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x500
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x15c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0x94
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x37a
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x15ac
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x1c
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x424
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x508
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x164
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0x9c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x396
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x15b4
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x1c
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x424
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x4fc
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x158
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0x90
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x36a
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .file
+Symbol Value: 0x36a
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: _mingw_get_invalid_parameter_handler
+Symbol Value: 0x15c0
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: _handler
+Symbol Value: 0x424
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: __get_invalid_parameter_handler
+Symbol Value: 0x15c0
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _mingw_set_invalid_parameter_handler
+Symbol Value: 0x15d0
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: __set_invalid_parameter_handler
+Symbol Value: 0x15d0
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x15c0
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x1c
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x424
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_info
+Symbol Value: 0x9ffe
+Symbol Section Number: 9
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_abbrev
+Symbol Value: 0x1838
+Symbol Section Number: a
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_loc
+Symbol Value: 0xcfb
+Symbol Section Number: e
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_aranges
+Symbol Value: 0x2b8
+Symbol Section Number: 8
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_line
+Symbol Value: 0x1769
+Symbol Section Number: b
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata$zzz
+Symbol Value: 0x45c
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .debug_frame
+Symbol Value: 0x74c
+Symbol Section Number: c
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .text
+Symbol Value: 0x15e0
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x54c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x1a8
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0xe0
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x44e
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x15e8
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x560
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x1bc
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0xf4
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x47c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x15f0
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x550
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x1ac
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0xe4
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x458
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x15f8
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x518
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x174
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0xac
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x3d4
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x1600
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x514
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x170
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0xa8
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x3c6
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x1608
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x520
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x17c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0xb4
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x3e8
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x1610
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x53c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x198
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0xd0
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x42a
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x1618
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x558
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x1b4
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0xec
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x46a
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x1620
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x554
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x1b0
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0xe8
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x462
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x1628
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x52c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x188
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0xc0
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x404
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x1628
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x528
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x184
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0xbc
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x3fc
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x1630
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x4f8
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x154
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0x8c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x35c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x1638
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x530
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x18c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0xc4
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x40e
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x1640
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x55c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x1b8
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0xf0
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x472
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x1648
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x524
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x180
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0xb8
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x3f4
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x1648
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x50c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x168
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0xa0
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x3a8
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x1650
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x540
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x19c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0xd4
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x432
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x1658
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x548
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x1a4
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0xdc
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x444
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x1660
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x568
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x1c4
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0xfc
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x490
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x1668
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x534
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x190
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0xc8
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x418
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x1670
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x538
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x194
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0xcc
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x420
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x1678
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x544
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x1a0
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0xd8
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x43c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x1680
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x564
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x1c0
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0xf8
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x486
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .file
+Symbol Value: 0x378
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: hname
+Symbol Value: 0x8c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: fthunk
+Symbol Value: 0x154
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x1688
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .idata$2
+Symbol Value: 0x14
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .idata$4
+Symbol Value: 0x8c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x154
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .file
+Symbol Value: 0x386
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: .text
+Symbol Value: 0x1688
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .idata$4
+Symbol Value: 0x100
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .idata$5
+Symbol Value: 0x1c8
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .idata$7
+Symbol Value: 0x56c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .file
+Symbol Value: 0x394
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: hname
+Symbol Value: 0x3c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: fthunk
+Symbol Value: 0x104
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x1688
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .idata$2
+Symbol Value: 0x0
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .idata$4
+Symbol Value: 0x3c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x104
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .file
+Symbol Value: 0x3a2
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: .text
+Symbol Value: 0x1688
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .idata$4
+Symbol Value: 0x88
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .idata$5
+Symbol Value: 0x150
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .idata$7
+Symbol Value: 0x4e8
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .file
+Symbol Value: 0x438
+Symbol Section Number: DEBUG
+Symbol Type: NULL
+Symbol Storage Class: UNKNOWN
+Symbol Number of Aux Symbols: 1
+Symbol Name: .text
+Symbol Value: 0x1688
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .rdata$zzz
+Symbol Value: 0x470
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 1
+Symbol Name: .text
+Symbol Value: 0x0
+Symbol Section Number: UNDEFINED
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x504
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x160
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0x98
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x386
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x0
+Symbol Section Number: UNDEFINED
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x4d0
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x138
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0x70
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x2f4
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x0
+Symbol Section Number: UNDEFINED
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x4cc
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x134
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0x6c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x2d6
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x0
+Symbol Section Number: UNDEFINED
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x4b4
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x11c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0x54
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x24c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x0
+Symbol Section Number: UNDEFINED
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x4e4
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x14c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0x84
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x34c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x0
+Symbol Section Number: UNDEFINED
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x4e0
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x148
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0x80
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x33a
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x0
+Symbol Section Number: UNDEFINED
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x4b0
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x118
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0x50
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x23c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x0
+Symbol Section Number: UNDEFINED
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x4b8
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x120
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0x58
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x25e
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x0
+Symbol Section Number: UNDEFINED
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x4a8
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x110
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0x48
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x210
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x0
+Symbol Section Number: UNDEFINED
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x4ac
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x114
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0x4c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x226
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x0
+Symbol Section Number: UNDEFINED
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x4bc
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x124
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0x5c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x278
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x0
+Symbol Section Number: UNDEFINED
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x4c8
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x130
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0x68
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x2bc
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x0
+Symbol Section Number: UNDEFINED
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x4dc
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x144
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0x7c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x31e
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x0
+Symbol Section Number: UNDEFINED
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x4a4
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x10c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0x44
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x1fc
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x0
+Symbol Section Number: UNDEFINED
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x4d4
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x13c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0x74
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x2fc
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x0
+Symbol Section Number: UNDEFINED
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x4a0
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x108
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0x40
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x1e4
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x0
+Symbol Section Number: UNDEFINED
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x4d8
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x140
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0x78
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x310
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x0
+Symbol Section Number: UNDEFINED
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x4c4
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x12c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0x64
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x2a4
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x0
+Symbol Section Number: UNDEFINED
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x49c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x104
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0x3c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x1cc
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .text
+Symbol Value: 0x0
+Symbol Section Number: UNDEFINED
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .data
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .bss
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$7
+Symbol Value: 0x4c0
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$5
+Symbol Value: 0x128
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$4
+Symbol Value: 0x60
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: .idata$6
+Symbol Value: 0x288
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: STATIC
+Symbol Number of Aux Symbols: 0
+Symbol Name: __cexit
+Symbol Value: 0x15f8
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _VirtualProtect@16
+Symbol Value: 0x0
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___RUNTIME_PSEUDO_RELOC_LIST__
+Symbol Value: 0x404484
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _QueryPerformanceCounter@4
+Symbol Value: 0x0
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __data_start__
+Symbol Value: 0x0
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___DTOR_LIST__
+Symbol Value: 0x1690
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___xi_a
+Symbol Value: 0xc
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _free
+Symbol Value: 0x1678
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__VirtualProtect@16
+Symbol Value: 0x148
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp___acmdln
+Symbol Value: 0x16c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___setusermatherr
+Symbol Value: 0x1648
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _UnhandledExceptionFilter@4
+Symbol Value: 0x0
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp___onexit
+Symbol Value: 0x188
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__GetLastError@0
+Symbol Value: 0x118
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _SetUnhandledExceptionFilter@4
+Symbol Value: 0x0
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__VirtualQuery@12
+Symbol Value: 0x14c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___tls_start__
+Symbol Value: 0x0
+Symbol Section Number: 7
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___native_startup_lock
+Symbol Value: 0x438
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__TlsGetValue@4
+Symbol Value: 0x140
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__InitializeCriticalSection@4
+Symbol Value: 0x128
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _DeleteCriticalSection@4
+Symbol Value: 0x0
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __rt_psrelocs_start
+Symbol Value: 0x484
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__abort
+Symbol Value: 0x190
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___xl_c
+Symbol Value: 0x20
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __dll_characteristics__
+Symbol Value: 0x0
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __size_of_stack_commit__
+Symbol Value: 0x1000
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp___fmode
+Symbol Value: 0x178
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __size_of_stack_reserve__
+Symbol Value: 0x200000
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __major_subsystem_version__
+Symbol Value: 0x4
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___crt_xl_start__
+Symbol Value: 0x1c
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __newmode
+Symbol Value: 0x3c
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___crt_xi_start__
+Symbol Value: 0xc
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp___amsg_exit
+Symbol Value: 0x170
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___crt_xi_end__
+Symbol Value: 0x1c
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___xl_z
+Symbol Value: 0x28
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _GetLastError@0
+Symbol Value: 0x0
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _puts
+Symbol Value: 0x1620
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __unlock
+Symbol Value: 0x1638
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__QueryPerformanceCounter@4
+Symbol Value: 0x130
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _VirtualQuery@12
+Symbol Value: 0x0
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _mingw_initltsdrot_force
+Symbol Value: 0x28
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp___iob
+Symbol Value: 0x180
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __dowildcard
+Symbol Value: 0x40
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__strncmp
+Symbol Value: 0x1c0
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __bss_start__
+Symbol Value: 0x0
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___RUNTIME_PSEUDO_RELOC_LIST_END__
+Symbol Value: 0x484
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _scanf
+Symbol Value: 0x1618
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __size_of_heap_commit__
+Symbol Value: 0x1000
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___onexitend
+Symbol Value: 0x430
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__GetCurrentProcess@0
+Symbol Value: 0x10c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _mingw_pcinit
+Symbol Value: 0x10
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___crt_xp_start__
+Symbol Value: 0x2c
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __MINGW_INSTALL_DEBUG_MATHERR
+Symbol Value: 0x18
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___crt_xp_end__
+Symbol Value: 0x2c
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__signal
+Symbol Value: 0x1b8
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __dll__
+Symbol Value: 0x0
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__puts
+Symbol Value: 0x1b0
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __minor_os_version__
+Symbol Value: 0x0
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _fwrite
+Symbol Value: 0x1658
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _GetTickCount@0
+Symbol Value: 0x0
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __image_base__
+Symbol Value: 0x400000
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__exit
+Symbol Value: 0x198
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __section_alignment__
+Symbol Value: 0x1000
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___xc_a
+Symbol Value: 0x0
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _memcpy
+Symbol Value: 0x15f0
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__GetStartupInfoA@4
+Symbol Value: 0x11c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __IAT_end__
+Symbol Value: 0x1cc
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp____lconv_init
+Symbol Value: 0x160
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __RUNTIME_PSEUDO_RELOC_LIST__
+Symbol Value: 0x404484
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __tls_start
+Symbol Value: 0x0
+Symbol Section Number: 7
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___native_startup_state
+Symbol Value: 0x43c
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __data_end__
+Symbol Value: 0x2c
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___getmainargs
+Symbol Value: 0x15b4
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___xl_a
+Symbol Value: 0x1c
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___xl_d
+Symbol Value: 0x24
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __CTOR_LIST__
+Symbol Value: 0x1688
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___onexitbegin
+Symbol Value: 0x434
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___set_app_type
+Symbol Value: 0x15ac
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __CRT_MT
+Symbol Value: 0x14
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __charmax
+Symbol Value: 0x4
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___mingw_winmain_lpCmdLine
+Symbol Value: 0x428
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __bss_end__
+Symbol Value: 0x450
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__scanf
+Symbol Value: 0x1b4
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___security_cookie_complement
+Symbol Value: 0x28
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___crt_xc_end__
+Symbol Value: 0xc
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _fprintf
+Symbol Value: 0x1650
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __tls_index
+Symbol Value: 0x2c
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__GetTickCount@0
+Symbol Value: 0x124
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___crt_xc_start__
+Symbol Value: 0x0
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __lib32_libkernel32_a_iname
+Symbol Value: 0x4e8
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___CTOR_LIST__
+Symbol Value: 0x1688
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__GetCurrentProcessId@0
+Symbol Value: 0x110
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _mingw_app_type
+Symbol Value: 0x34
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __initterm
+Symbol Value: 0x1608
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _calloc
+Symbol Value: 0x1670
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__TerminateProcess@8
+Symbol Value: 0x13c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __fmode
+Symbol Value: 0x38
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __rt_psrelocs_size
+Symbol Value: 0x0
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _GetStartupInfoA@4
+Symbol Value: 0x0
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _GetCurrentProcessId@0
+Symbol Value: 0x0
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp____dllonexit
+Symbol Value: 0x154
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__memcpy
+Symbol Value: 0x1ac
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __file_alignment__
+Symbol Value: 0x200
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp___unlock
+Symbol Value: 0x18c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __head_lib32_libmsvcrt_a
+Symbol Value: 0x14
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__LeaveCriticalSection@4
+Symbol Value: 0x12c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__malloc
+Symbol Value: 0x1a8
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___mingw_pinit
+Symbol Value: 0x14
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __major_os_version__
+Symbol Value: 0x4
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __lib32_libmsvcrt_a_iname
+Symbol Value: 0x56c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __lock
+Symbol Value: 0x1628
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __IAT_start__
+Symbol Value: 0x104
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___xc_z
+Symbol Value: 0x8
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __tls_end
+Symbol Value: 0x1c
+Symbol Section Number: 7
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __end__
+Symbol Value: 0x1000
+Symbol Section Number: 7
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp____initenv
+Symbol Value: 0x15c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp___get_invalid_parameter_handler
+Symbol Value: 0x1c
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___dllonexit
+Symbol Value: 0x1630
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _signal
+Symbol Value: 0x1640
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp___lock
+Symbol Value: 0x184
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _malloc
+Symbol Value: 0x15e0
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __DTOR_LIST__
+Symbol Value: 0x1690
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__fprintf
+Symbol Value: 0x19c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _TerminateProcess@8
+Symbol Value: 0x0
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _EnterCriticalSection@4
+Symbol Value: 0x0
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp___initterm
+Symbol Value: 0x17c
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _GetCurrentThreadId@0
+Symbol Value: 0x0
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __size_of_heap_reserve__
+Symbol Value: 0x100000
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___crt_xt_start__
+Symbol Value: 0x2c
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___ImageBase
+Symbol Value: 0x400000
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __subsystem__
+Symbol Value: 0x3
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__strlen
+Symbol Value: 0x1bc
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___mingw_oldexcpt_handler
+Symbol Value: 0x44
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__calloc
+Symbol Value: 0x194
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _abort
+Symbol Value: 0x1668
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___native_vcclrit_reason
+Symbol Value: 0x8
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__GetSystemTimeAsFileTime@4
+Symbol Value: 0x120
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___lconv_init
+Symbol Value: 0x0
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __amsg_exit
+Symbol Value: 0x1600
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp____getmainargs
+Symbol Value: 0x158
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___mingw_winmain_nShowCmd
+Symbol Value: 0x0
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___native_dllmain_reason
+Symbol Value: 0xc
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___tls_end__
+Symbol Value: 0x20
+Symbol Section Number: 7
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _GetSystemTimeAsFileTime@4
+Symbol Value: 0x0
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _mingw_pcppinit
+Symbol Value: 0x4
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___xi_z
+Symbol Value: 0x18
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _GetCurrentProcess@0
+Symbol Value: 0x0
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _mingw_initltssuo_force
+Symbol Value: 0x20
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _strncmp
+Symbol Value: 0x1680
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _InitializeCriticalSection@4
+Symbol Value: 0x0
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__free
+Symbol Value: 0x1a0
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__SetUnhandledExceptionFilter@4
+Symbol Value: 0x134
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp___set_invalid_parameter_handler
+Symbol Value: 0x20
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __major_image_version__
+Symbol Value: 0x1
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __loader_flags__
+Symbol Value: 0x0
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__UnhandledExceptionFilter@4
+Symbol Value: 0x144
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __head_lib32_libkernel32_a
+Symbol Value: 0x0
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___chkstk_ms
+Symbol Value: 0x1580
+Symbol Section Number: 1
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __rt_psrelocs_end
+Symbol Value: 0x484
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp___cexit
+Symbol Value: 0x174
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __minor_subsystem_version__
+Symbol Value: 0x0
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __minor_image_version__
+Symbol Value: 0x0
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__Sleep@4
+Symbol Value: 0x138
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__vfprintf
+Symbol Value: 0x1c4
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _strlen
+Symbol Value: 0x15e8
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp____set_app_type
+Symbol Value: 0x164
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___mingw_winmain_hInstance
+Symbol Value: 0x42c
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _mingw_initltsdyn_force
+Symbol Value: 0x24
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__GetCurrentThreadId@0
+Symbol Value: 0x114
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _exit
+Symbol Value: 0x1610
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _TlsGetValue@4
+Symbol Value: 0x0
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__DeleteCriticalSection@4
+Symbol Value: 0x104
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___security_cookie
+Symbol Value: 0x24
+Symbol Section Number: 2
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _LeaveCriticalSection@4
+Symbol Value: 0x0
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __RUNTIME_PSEUDO_RELOC_LIST_END__
+Symbol Value: 0x484
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___dyn_tls_init_callback
+Symbol Value: 0x28
+Symbol Section Number: 3
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _Sleep@4
+Symbol Value: 0x0
+Symbol Section Number: ABSOLUTE
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _mingw_initcharmax
+Symbol Value: 0x30
+Symbol Section Number: 4
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp____setusermatherr
+Symbol Value: 0x168
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __tls_used
+Symbol Value: 0x4
+Symbol Section Number: 7
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: ___crt_xt_end__
+Symbol Value: 0x2c
+Symbol Section Number: 6
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: _vfprintf
+Symbol Value: 0x1660
+Symbol Section Number: 1
+Symbol Type: UNKNOWN
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__EnterCriticalSection@4
+Symbol Value: 0x108
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Symbol Name: __imp__fwrite
+Symbol Value: 0x1a4
+Symbol Section Number: 5
+Symbol Type: NULL
+Symbol Storage Class: EXTERNAL
+Symbol Number of Aux Symbols: 0
+Sections: 
+Sec Name: .bss
+Sec Base: 0x405000
+Sec Size: 0
+Sec Name: .text
+Sec Base: 0x401000
+Sec Size: 6144
+Sec Name: .data
+Sec Base: 0x403000
+Sec Size: 512
+Sec Name: .rdata
+Sec Base: 0x404000
+Sec Size: 1536
+Sec Name: .idata
+Sec Base: 0x406000
+Sec Size: 1536
+Sec Name: .CRT
+Sec Base: 0x407000
+Sec Size: 512
+Sec Name: .tls
+Sec Base: 0x408000
+Sec Size: 512
+Sec Name: /4
+Sec Base: 0x409000
+Sec Size: 1024
+Sec Name: /19
+Sec Base: 0x40a000
+Sec Size: 43008
+Sec Name: /31
+Sec Base: 0x415000
+Sec Size: 6656
+Sec Name: /45
+Sec Base: 0x417000
+Sec Size: 6656
+Sec Name: /57
+Sec Base: 0x419000
+Sec Size: 2048
+Sec Name: /70
+Sec Base: 0x41a000
+Sec Size: 1024
+Sec Name: /81
+Sec Base: 0x41b000
+Sec Size: 3584
+Sec Name: /92
+Sec Base: 0x41c000
+Sec Size: 1024
+Exports: 
+First 8 bytes from entry point (0x4014e0):
+ 0x83 0xec 0xc 0xc7 0x5 0x34 0x50 0x40
+Resources: 

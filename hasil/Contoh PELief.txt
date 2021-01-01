@@ -1,0 +1,1144 @@
+PE-Lief: 02263a0c8cb038dc23562918ca99b18e
+Dos Header
+==========
+Magic:                        5a4d
+Used Bytes In The LastPage:   90
+File Size In Pages:           3
+Number Of Relocation:         0
+Header Size In Paragraphs:    4
+Minimum Extra Paragraphs:     0
+Maximum Extra Paragraphs:     ffff
+Initial Relative SS:          0
+Initial SP:                   b8
+Checksum:                     0
+Initial IP:                   0
+Initial Relative CS:          0
+Address Of Relocation Table:  40
+Overlay Number:               0
+OEM id:                       0
+OEM info:                     0
+Address Of New Exe Header:    80
+
+Header
+======
+Signature:                    50 45 0 0 
+Machine:                      I386
+Number Of Sections:           f
+Pointer To Symbol Table:      12c00
+Number Of Symbols:            4f0
+Size Of Optional Header:      e0
+Characteristics:              RELOCS_STRIPPED - EXECUTABLE_IMAGE - LINE_NUMS_STRIPPED - CHARA_32BIT_MACHINE
+Time Date Stamp:              5fb4a8d3
+
+Optional Header
+===============
+Magic:                           10b
+Major Linker Version:            2
+Minor Linker Version:            18
+Size Of Code:                    1800
+Size Of Initialized Data:        1200
+Size Of Uninitialized Data:      600
+Address Of Entry Point:          14e0
+Base Of Code:                    1000
+Base Of Data:                    3000
+Image Base:                      400000
+Section Alignment:               1000
+File Alignment:                  200
+Major Operating System Version:  4
+Minor Operating System Version:  0
+Major Image Version:             1
+Minor Image Version:             0
+Major Subsystem Version:         4
+Minor Subsystem Version:         0
+Win32 Version Value:             0
+Size Of Image:                   1d000
+Size Of Headers:                 400
+CheckSum:                        23c93
+Subsystem:                       WINDOWS_CUI
+DLL Characteristics:             
+Size Of Stack Reserve:           200000
+Size Of Stack Commit:            1000
+Size Of Heap Reserve:            100000
+Size Of Heap Commit:             1000
+Loader Flags:                    0
+Number Of RVA And Size:          10
+
+Data directories
+================
+Data directory "EXPORT_TABLE"
+RVA: 0x   0
+Size: 0x  0
+
+Data directory "IMPORT_TABLE"
+RVA: 0x   6000
+Size: 0x  578
+Section:  .idata
+
+Data directory "RESOURCE_TABLE"
+RVA: 0x   0
+Size: 0x  0
+
+Data directory "EXCEPTION_TABLE"
+RVA: 0x   0
+Size: 0x  0
+
+Data directory "CERTIFICATE_TABLE"
+RVA: 0x   0
+Size: 0x  0
+
+Data directory "BASE_RELOCATION_TABLE"
+RVA: 0x   0
+Size: 0x  0
+
+Data directory "DEBUG"
+RVA: 0x   0
+Size: 0x  0
+
+Data directory "ARCHITECTURE"
+RVA: 0x   0
+Size: 0x  0
+
+Data directory "GLOBAL_PTR"
+RVA: 0x   0
+Size: 0x  0
+
+Data directory "TLS_TABLE"
+RVA: 0x   8004
+Size: 0x  18
+Section:  .tls
+
+Data directory "LOAD_CONFIG_TABLE"
+RVA: 0x   0
+Size: 0x  0
+
+Data directory "BOUND_IMPORT"
+RVA: 0x   0
+Size: 0x  0
+
+Data directory "IAT"
+RVA: 0x   6104
+Size: 0x  c8
+Section:  .idata
+
+Data directory "DELAY_IMPORT_DESCRIPTOR"
+RVA: 0x   0
+Size: 0x  0
+
+Data directory "CLR_RUNTIME_HEADER"
+RVA: 0x   0
+Size: 0x  0
+
+
+Sections
+========
+.text     1698      1000      1800      400       0         5.95943   CNT_CODE - ALIGN_1BYTES - ALIGN_4BYTES - ALIGN_8BYTES - ALIGN_16BYTES - ALIGN_32BYTES - ALIGN_64BYTES - ALIGN_256BYTES - ALIGN_1024BYTES - ALIGN_2048BYTES - ALIGN_4096BYTES - ALIGN_8192BYTES - MEM_EXECUTE - MEM_READ
+.data     2c        3000      200       1c00      0         3.16113   CNT_INITIALIZED_DATA - ALIGN_1BYTES - ALIGN_2BYTES - ALIGN_4BYTES - ALIGN_16BYTES - ALIGN_32BYTES - ALIGN_64BYTES - ALIGN_256BYTES - ALIGN_512BYTES - ALIGN_1024BYTES - ALIGN_4096BYTES - ALIGN_8192BYTES - MEM_READ - MEM_WRITE
+.rdata    484       4000      600       1e00      0         5.01301   CNT_INITIALIZED_DATA - ALIGN_1BYTES - ALIGN_2BYTES - ALIGN_4BYTES - ALIGN_16BYTES - ALIGN_32BYTES - ALIGN_64BYTES - ALIGN_256BYTES - ALIGN_512BYTES - ALIGN_1024BYTES - ALIGN_4096BYTES - ALIGN_8192BYTES - MEM_READ
+.bss      450       5000      0         0         0         -0        CNT_UNINITIALIZED_DATA - ALIGN_1BYTES - ALIGN_2BYTES - ALIGN_4BYTES - ALIGN_8BYTES - ALIGN_16BYTES - ALIGN_32BYTES - ALIGN_64BYTES - ALIGN_256BYTES - ALIGN_512BYTES - ALIGN_1024BYTES - ALIGN_2048BYTES - ALIGN_4096BYTES - ALIGN_8192BYTES - MEM_READ - MEM_WRITE
+.idata    578       6000      600       2400      0         4.61833   CNT_INITIALIZED_DATA - ALIGN_1BYTES - ALIGN_2BYTES - ALIGN_4BYTES - ALIGN_16BYTES - ALIGN_32BYTES - ALIGN_64BYTES - ALIGN_256BYTES - ALIGN_512BYTES - ALIGN_1024BYTES - ALIGN_4096BYTES - ALIGN_8192BYTES - MEM_READ - MEM_WRITE
+.CRT      34        7000      200       2a00      0         1.65507   CNT_INITIALIZED_DATA - ALIGN_1BYTES - ALIGN_2BYTES - ALIGN_4BYTES - ALIGN_16BYTES - ALIGN_32BYTES - ALIGN_64BYTES - ALIGN_256BYTES - ALIGN_512BYTES - ALIGN_1024BYTES - ALIGN_4096BYTES - ALIGN_8192BYTES - MEM_READ - MEM_WRITE
+.tls      20        8000      200       2c00      0         1.80504   CNT_INITIALIZED_DATA - ALIGN_1BYTES - ALIGN_2BYTES - ALIGN_4BYTES - ALIGN_16BYTES - ALIGN_32BYTES - ALIGN_64BYTES - ALIGN_256BYTES - ALIGN_512BYTES - ALIGN_1024BYTES - ALIGN_4096BYTES - ALIGN_8192BYTES - MEM_READ - MEM_WRITE
+/4        2d8       9000      400       2e00      0         2.17107   CNT_INITIALIZED_DATA - ALIGN_8BYTES - ALIGN_16BYTES - ALIGN_32BYTES - ALIGN_64BYTES - ALIGN_2048BYTES - ALIGN_4096BYTES - ALIGN_8192BYTES - MEM_DISCARDABLE - MEM_READ
+/19       a6d5      a000      a800      3200      0         6.05696   CNT_INITIALIZED_DATA - ALIGN_1BYTES - ALIGN_4BYTES - ALIGN_16BYTES - ALIGN_64BYTES - ALIGN_256BYTES - ALIGN_1024BYTES - ALIGN_4096BYTES - MEM_DISCARDABLE - MEM_READ
+/31       199e      15000     1a00      da00      0         4.6413    CNT_INITIALIZED_DATA - ALIGN_1BYTES - ALIGN_4BYTES - ALIGN_16BYTES - ALIGN_64BYTES - ALIGN_256BYTES - ALIGN_1024BYTES - ALIGN_4096BYTES - MEM_DISCARDABLE - MEM_READ
+/45       18f3      17000     1a00      f400      0         5.63034   CNT_INITIALIZED_DATA - ALIGN_1BYTES - ALIGN_4BYTES - ALIGN_16BYTES - ALIGN_64BYTES - ALIGN_256BYTES - ALIGN_1024BYTES - ALIGN_4096BYTES - MEM_DISCARDABLE - MEM_READ
+/57       780       19000     800       10e00     0         4.70042   CNT_INITIALIZED_DATA - ALIGN_1BYTES - ALIGN_2BYTES - ALIGN_4BYTES - ALIGN_16BYTES - ALIGN_32BYTES - ALIGN_64BYTES - ALIGN_256BYTES - ALIGN_512BYTES - ALIGN_1024BYTES - ALIGN_4096BYTES - ALIGN_8192BYTES - MEM_DISCARDABLE - MEM_READ
+/70       2f2       1a000     400       11600     0         4.76379   CNT_INITIALIZED_DATA - ALIGN_1BYTES - ALIGN_4BYTES - ALIGN_16BYTES - ALIGN_64BYTES - ALIGN_256BYTES - ALIGN_1024BYTES - ALIGN_4096BYTES - MEM_DISCARDABLE - MEM_READ
+/81       d1e       1b000     e00       11a00     0         3.29799   CNT_INITIALIZED_DATA - ALIGN_1BYTES - ALIGN_4BYTES - ALIGN_16BYTES - ALIGN_64BYTES - ALIGN_256BYTES - ALIGN_1024BYTES - ALIGN_4096BYTES - MEM_DISCARDABLE - MEM_READ
+/92       230       1c000     400       12800     0         2.61946   CNT_INITIALIZED_DATA - ALIGN_1BYTES - ALIGN_4BYTES - ALIGN_16BYTES - ALIGN_64BYTES - ALIGN_256BYTES - ALIGN_1024BYTES - ALIGN_4096BYTES - MEM_DISCARDABLE - MEM_READ
+
+TLS
+===
+Address Of Index:                       40502c
+Address Of Callbacks:                   407020
+	 - 4015a0
+	 - 401550
+Virtual Address of RawData (start):     408000
+Virtual Address of RawData (end):       40801c
+Size Of Zero Fill:                      0
+Associated section:                     .tls
+
+
+Imports
+=======
+KERNEL32.dll        603c      6104      0         0         
+	 - DeleteCriticalSection            61cc                61cc                d4                  
+	 - EnterCriticalSection             61e4                61e4                ef                  
+	 - GetCurrentProcess                61fc                61fc                1c4                 
+	 - GetCurrentProcessId              6210                6210                1c5                 
+	 - GetCurrentThreadId               6226                6226                1c9                 
+	 - GetLastError                     623c                623c                203                 
+	 - GetStartupInfoA                  624c                624c                264                 
+	 - GetSystemTimeAsFileTime          625e                625e                27b                 
+	 - GetTickCount                     6278                6278                297                 
+	 - InitializeCriticalSection        6288                6288                2eb                 
+	 - LeaveCriticalSection             62a4                62a4                326                 
+	 - QueryPerformanceCounter          62bc                62bc                393                 
+	 - SetUnhandledExceptionFilter      62d6                62d6                467                 
+	 - Sleep                            62f4                62f4                474                 
+	 - TerminateProcess                 62fc                62fc                482                 
+	 - TlsGetValue                      6310                6310                489                 
+	 - UnhandledExceptionFilter         631e                631e                496                 
+	 - VirtualProtect                   633a                633a                4b6                 
+	 - VirtualQuery                     634c                634c                4b9                 
+
+msvcrt.dll          608c      6154      0         0         
+	 - __dllonexit                      635c                635c                38                  
+	 - __getmainargs                    636a                636a                3b                  
+	 - __initenv                        637a                637a                3c                  
+	 - __lconv_init                     6386                6386                45                  
+	 - __set_app_type                   6396                6396                69                  
+	 - __setusermatherr                 63a8                63a8                6c                  
+	 - _acmdln                          63bc                63bc                7b                  
+	 - _amsg_exit                       63c6                63c6                91                  
+	 - _cexit                           63d4                63d4                a2                  
+	 - _fmode                           63de                63de                112                 
+	 - _initterm                        63e8                63e8                15d                 
+	 - _iob                             63f4                63f4                161                 
+	 - _lock                            63fc                63fc                1ca                 
+	 - _onexit                          6404                6404                270                 
+	 - _unlock                          640e                640e                347                 
+	 - abort                            6418                6418                41c                 
+	 - calloc                           6420                6420                42b                 
+	 - exit                             642a                642a                436                 
+	 - fprintf                          6432                6432                446                 
+	 - free                             643c                643c                44d                 
+	 - fwrite                           6444                6444                458                 
+	 - malloc                           644e                644e                487                 
+	 - memcpy                           6458                6458                490                 
+	 - puts                             6462                6462                49b                 
+	 - scanf                            646a                646a                4a6                 
+	 - signal                           6472                6472                4ab                 
+	 - strlen                           647c                647c                4bd                 
+	 - strncmp                          6486                6486                4c0                 
+	 - vfprintf                         6490                6490                4e1                 
+
+
+Symbols
+=======
+                              2d        DEBUG               NULL      NULL      FILE      
+___mingw_invalidP...          0         1                   NULL      FUNCTION  STATIC    
+_pre_c_init                   10        1                   NULL      FUNCTION  STATIC    
+_managedapp                   8         4                   NULL      NULL      STATIC    
+_pre_cpp_init                 130       1                   NULL      FUNCTION  STATIC    
+_startinfo                    0         4                   NULL      NULL      STATIC    
+                              14        4                   NULL      NULL      STATIC    
+                              18        4                   NULL      NULL      STATIC    
+                              1c        4                   NULL      NULL      STATIC    
+                              10        4                   NULL      NULL      STATIC    
+___tmainCRTStartup            180       1                   NULL      FUNCTION  STATIC    
+_has_cctor                    4         4                   NULL      NULL      STATIC    
+                              c         4                   NULL      NULL      STATIC    
+_WinMainCRTStartup            4c0       1                   NULL      FUNCTION  EXTERNAL  
+_mainCRTStartup               4e0       1                   NULL      FUNCTION  EXTERNAL  
+                              0         1                   NULL      NULL      STATIC    
+                              0         2                   NULL      NULL      STATIC    
+                              0         4                   NULL      NULL      STATIC    
+.CRT$XCAA                     4         6                   NULL      NULL      STATIC    
+.CRT$XIAA                     10        6                   NULL      NULL      STATIC    
+.debug_info                   0         9                   NULL      NULL      STATIC    
+.debug_abbrev                 0         10                  NULL      NULL      STATIC    
+.debug_loc                    0         14                  NULL      NULL      STATIC    
+.debug_aranges                0         8                   NULL      NULL      STATIC    
+.debug_ranges                 0         15                  NULL      NULL      STATIC    
+.debug_line                   0         11                  NULL      NULL      STATIC    
+.debug_str                    0         13                  NULL      NULL      STATIC    
+.rdata$zzz                    260       3                   NULL      NULL      STATIC    
+.debug_frame                  0         12                  NULL      NULL      STATIC    
+                              37        DEBUG               NULL      NULL      FILE      
+                              500       1                   NULL      NULL      STATIC    
+                              4         2                   NULL      NULL      STATIC    
+                              20        4                   NULL      NULL      STATIC    
+.rdata$zzz                    274       3                   NULL      NULL      STATIC    
+                              45        DEBUG               NULL      NULL      FILE      
+                              500       1                   NULL      FUNCTION  EXTERNAL  
+                              500       1                   NULL      NULL      STATIC    
+                              4         2                   NULL      NULL      STATIC    
+                              20        4                   NULL      NULL      STATIC    
+                              0         3                   NULL      NULL      STATIC    
+.rdata$zzz                    288       3                   NULL      NULL      STATIC    
+                              77        DEBUG               NULL      NULL      FILE      
+___dyn_tls_dtor@12            550       1                   NULL      FUNCTION  STATIC    
+___dyn_tls_init@12            5a0       1                   NULL      FUNCTION  EXTERNAL  
+                              2c        6                   NULL      NULL      STATIC    
+                              30        6                   NULL      NULL      STATIC    
+___tlregdtor                  620       1                   NULL      FUNCTION  EXTERNAL  
+                              550       1                   NULL      NULL      STATIC    
+                              4         2                   NULL      NULL      STATIC    
+                              20        4                   NULL      NULL      STATIC    
+                              24        6                   NULL      NULL      STATIC    
+                              20        6                   NULL      NULL      STATIC    
+                              28        3                   NULL      NULL      STATIC    
+                              30        6                   NULL      NULL      STATIC    
+                              2c        6                   NULL      NULL      STATIC    
+                              4         7                   NULL      NULL      STATIC    
+                              28        6                   NULL      NULL      STATIC    
+                              1c        6                   NULL      NULL      STATIC    
+                              1c        7                   NULL      NULL      STATIC    
+                              0         7                   NULL      NULL      STATIC    
+.debug_info                   239c      9                   NULL      NULL      STATIC    
+.debug_abbrev                 46f       10                  NULL      NULL      STATIC    
+.debug_loc                    2e3       14                  NULL      NULL      STATIC    
+.debug_aranges                20        8                   NULL      NULL      STATIC    
+.debug_line                   332       11                  NULL      NULL      STATIC    
+.debug_str                    235       13                  NULL      NULL      STATIC    
+.rdata$zzz                    2a0       3                   NULL      NULL      STATIC    
+.debug_frame                  c0        12                  NULL      NULL      STATIC    
+                              8f        DEBUG               NULL      NULL      FILE      
+_my_lconv_init                630       1                   NULL      FUNCTION  STATIC    
+                              630       1                   NULL      NULL      STATIC    
+                              4         2                   NULL      NULL      STATIC    
+                              30        4                   NULL      NULL      STATIC    
+                              14        6                   NULL      NULL      STATIC    
+.debug_info                   2a19      9                   NULL      NULL      STATIC    
+.debug_abbrev                 61a       10                  NULL      NULL      STATIC    
+.debug_aranges                40        8                   NULL      NULL      STATIC    
+.debug_line                   440       11                  NULL      NULL      STATIC    
+.rdata$zzz                    2b4       3                   NULL      NULL      STATIC    
+.debug_frame                  12c       12                  NULL      NULL      STATIC    
+                              a6        DEBUG               NULL      NULL      FILE      
+__decode_pointer              640       1                   NULL      FUNCTION  EXTERNAL  
+__encode_pointer              650       1                   NULL      FUNCTION  EXTERNAL  
+                              640       1                   NULL      NULL      STATIC    
+                              8         2                   NULL      NULL      STATIC    
+                              34        4                   NULL      NULL      STATIC    
+.debug_info                   2ee3      9                   NULL      NULL      STATIC    
+.debug_abbrev                 6b4       10                  NULL      NULL      STATIC    
+.debug_aranges                60        8                   NULL      NULL      STATIC    
+.debug_line                   554       11                  NULL      NULL      STATIC    
+.rdata$zzz                    2c8       3                   NULL      NULL      STATIC    
+.debug_frame                  150       12                  NULL      NULL      STATIC    
+                              b8        DEBUG               NULL      NULL      FILE      
+                              660       1                   NULL      NULL      STATIC    
+                              8         2                   NULL      NULL      STATIC    
+                              38        4                   NULL      NULL      STATIC    
+.debug_info                   33ad      9                   NULL      NULL      STATIC    
+.debug_abbrev                 73b       10                  NULL      NULL      STATIC    
+.debug_aranges                80        8                   NULL      NULL      STATIC    
+.debug_line                   62b       11                  NULL      NULL      STATIC    
+.rdata$zzz                    2dc       3                   NULL      NULL      STATIC    
+                              d1        DEBUG               NULL      NULL      FILE      
+_mingw_onexit                 660       1                   NULL      FUNCTION  EXTERNAL  
+                              720       1                   NULL      FUNCTION  EXTERNAL  
+                              660       1                   NULL      NULL      STATIC    
+                              8         2                   NULL      NULL      STATIC    
+                              3c        4                   NULL      NULL      STATIC    
+.debug_info                   3458      9                   NULL      NULL      STATIC    
+.debug_abbrev                 765       10                  NULL      NULL      STATIC    
+.debug_loc                    362       14                  NULL      NULL      STATIC    
+.debug_aranges                98        8                   NULL      NULL      STATIC    
+.debug_line                   689       11                  NULL      NULL      STATIC    
+.rdata$zzz                    2f0       3                   NULL      NULL      STATIC    
+.debug_frame                  184       12                  NULL      NULL      STATIC    
+                              e3        DEBUG               NULL      NULL      FILE      
+                              740       1                   NULL      NULL      STATIC    
+                              8         2                   NULL      NULL      STATIC    
+                              3c        4                   NULL      NULL      STATIC    
+.debug_info                   3aef      9                   NULL      NULL      STATIC    
+.debug_abbrev                 8e0       10                  NULL      NULL      STATIC    
+.debug_aranges                b8        8                   NULL      NULL      STATIC    
+.debug_line                   7ca       11                  NULL      NULL      STATIC    
+.rdata$zzz                    304       3                   NULL      NULL      STATIC    
+                              f5        DEBUG               NULL      NULL      FILE      
+                              740       1                   NULL      NULL      STATIC    
+                              8         2                   NULL      NULL      STATIC    
+                              40        4                   NULL      NULL      STATIC    
+.debug_info                   3b9c      9                   NULL      NULL      STATIC    
+.debug_abbrev                 90a       10                  NULL      NULL      STATIC    
+.debug_aranges                d0        8                   NULL      NULL      STATIC    
+.debug_line                   828       11                  NULL      NULL      STATIC    
+.rdata$zzz                    318       3                   NULL      NULL      STATIC    
+                              109       DEBUG               NULL      NULL      FILE      
+                              740       1                   NULL      NULL      STATIC    
+                              8         2                   NULL      NULL      STATIC    
+                              44        4                   NULL      NULL      STATIC    
+.debug_info                   3c4c      9                   NULL      NULL      STATIC    
+.debug_abbrev                 934       10                  NULL      NULL      STATIC    
+.debug_aranges                e8        8                   NULL      NULL      STATIC    
+.debug_line                   886       11                  NULL      NULL      STATIC    
+.debug_str                    254       13                  NULL      NULL      STATIC    
+.rdata$zzz                    32c       3                   NULL      NULL      STATIC    
+                              123       DEBUG               NULL      NULL      FILE      
+__gnu_exception_h...          740       1                   NULL      FUNCTION  EXTERNAL  
+                              740       1                   NULL      NULL      STATIC    
+                              10        2                   NULL      NULL      STATIC    
+                              44        4                   NULL      NULL      STATIC    
+.debug_info                   416b      9                   NULL      NULL      STATIC    
+.debug_abbrev                 9b6       10                  NULL      NULL      STATIC    
+.debug_loc                    38b       14                  NULL      NULL      STATIC    
+.debug_aranges                100       8                   NULL      NULL      STATIC    
+.debug_line                   98b       11                  NULL      NULL      STATIC    
+.debug_str                    26c       13                  NULL      NULL      STATIC    
+.rdata$zzz                    340       3                   NULL      NULL      STATIC    
+.debug_frame                  1dc       12                  NULL      NULL      STATIC    
+                              13d       DEBUG               NULL      NULL      FILE      
+                              8e0       1                   NULL      NULL      STATIC    
+                              10        2                   NULL      NULL      STATIC    
+                              48        4                   NULL      NULL      STATIC    
+                              8         6                   NULL      NULL      STATIC    
+                              0         6                   NULL      NULL      STATIC    
+                              18        6                   NULL      NULL      STATIC    
+                              c         6                   NULL      NULL      STATIC    
+.debug_info                   4c84      9                   NULL      NULL      STATIC    
+.debug_abbrev                 b40       10                  NULL      NULL      STATIC    
+.debug_aranges                120       8                   NULL      NULL      STATIC    
+.debug_line                   ae8       11                  NULL      NULL      STATIC    
+.rdata$zzz                    354       3                   NULL      NULL      STATIC    
+                              153       DEBUG               NULL      NULL      FILE      
+__setargv                     8e0       1                   NULL      FUNCTION  EXTERNAL  
+                              8e0       1                   NULL      NULL      STATIC    
+                              10        2                   NULL      NULL      STATIC    
+                              48        4                   NULL      NULL      STATIC    
+.debug_info                   4e0c      9                   NULL      NULL      STATIC    
+.debug_abbrev                 b99       10                  NULL      NULL      STATIC    
+.debug_aranges                138       8                   NULL      NULL      STATIC    
+.debug_line                   b46       11                  NULL      NULL      STATIC    
+.rdata$zzz                    368       3                   NULL      NULL      STATIC    
+.debug_frame                  224       12                  NULL      NULL      STATIC    
+                              171       DEBUG               NULL      NULL      FILE      
+___mingw_raise_ma...          8f0       1                   NULL      FUNCTION  EXTERNAL  
+_stUserMathErr                48        4                   NULL      NULL      STATIC    
+___mingw_setuserm...          940       1                   NULL      FUNCTION  EXTERNAL  
+__matherr                     950       1                   NULL      FUNCTION  EXTERNAL  
+_CSWTCH.5                     148       3                   NULL      NULL      STATIC    
+                              8f0       1                   NULL      NULL      STATIC    
+                              10        2                   NULL      NULL      STATIC    
+                              48        4                   NULL      NULL      STATIC    
+                              2c        3                   NULL      NULL      STATIC    
+.debug_info                   4f99      9                   NULL      NULL      STATIC    
+.debug_abbrev                 bd0       10                  NULL      NULL      STATIC    
+.debug_loc                    4ed       14                  NULL      NULL      STATIC    
+.debug_aranges                158       8                   NULL      NULL      STATIC    
+.debug_line                   bb3       11                  NULL      NULL      STATIC    
+.rdata$zzz                    37c       3                   NULL      NULL      STATIC    
+.debug_frame                  248       12                  NULL      NULL      STATIC    
+                              194       DEBUG               NULL      NULL      FILE      
+___report_error               9b0       1                   NULL      FUNCTION  STATIC    
+_mark_section_wri...          a10       1                   NULL      FUNCTION  STATIC    
+_maxSections                  50        4                   NULL      NULL      STATIC    
+_the_secs                     54        4                   NULL      NULL      STATIC    
+__pei386_runtime_...          b50       1                   NULL      FUNCTION  EXTERNAL  
+_was_init.60804               4c        4                   NULL      NULL      STATIC    
+                              9b0       1                   NULL      NULL      STATIC    
+                              10        2                   NULL      NULL      STATIC    
+                              4c        4                   NULL      NULL      STATIC    
+                              160       3                   NULL      NULL      STATIC    
+.debug_info                   56a0      9                   NULL      NULL      STATIC    
+.debug_abbrev                 d3e       10                  NULL      NULL      STATIC    
+.debug_loc                    500       14                  NULL      NULL      STATIC    
+.debug_aranges                178       8                   NULL      NULL      STATIC    
+.debug_ranges                 88        15                  NULL      NULL      STATIC    
+.debug_line                   cf5       11                  NULL      NULL      STATIC    
+.debug_str                    27c       13                  NULL      NULL      STATIC    
+.rdata$zzz                    390       3                   NULL      NULL      STATIC    
+.debug_frame                  29c       12                  NULL      NULL      STATIC    
+                              1ab       DEBUG               NULL      NULL      FILE      
+__fpreset                     e10       1                   NULL      FUNCTION  EXTERNAL  
+                              e10       1                   NULL      FUNCTION  EXTERNAL  
+                              e10       1                   NULL      NULL      STATIC    
+                              10        2                   NULL      NULL      STATIC    
+                              58        4                   NULL      NULL      STATIC    
+.debug_info                   6734      9                   NULL      NULL      STATIC    
+.debug_abbrev                 1064      10                  NULL      NULL      STATIC    
+.debug_aranges                198       8                   NULL      NULL      STATIC    
+.debug_line                   f34       11                  NULL      NULL      STATIC    
+.rdata$zzz                    3a4       3                   NULL      NULL      STATIC    
+.debug_frame                  33c       12                  NULL      NULL      STATIC    
+                              1c7       DEBUG               NULL      NULL      FILE      
+___do_global_dtors            e20       1                   NULL      FUNCTION  EXTERNAL  
+                              10        2                   NULL      NULL      STATIC    
+___do_global_ctors            e50       1                   NULL      FUNCTION  EXTERNAL  
+                              ea0       1                   NULL      FUNCTION  EXTERNAL  
+_initialized                  58        4                   NULL      NULL      STATIC    
+                              e20       1                   NULL      NULL      STATIC    
+                              10        2                   NULL      NULL      STATIC    
+                              58        4                   NULL      NULL      STATIC    
+.debug_info                   67e2      9                   NULL      NULL      STATIC    
+.debug_abbrev                 108e      10                  NULL      NULL      STATIC    
+.debug_loc                    7f5       14                  NULL      NULL      STATIC    
+.debug_aranges                1b8       8                   NULL      NULL      STATIC    
+.debug_line                   fa2       11                  NULL      NULL      STATIC    
+.rdata$zzz                    3b8       3                   NULL      NULL      STATIC    
+.debug_frame                  360       12                  NULL      NULL      STATIC    
+                              1eb       DEBUG               NULL      NULL      FILE      
+___security_init_...          ec0       1                   NULL      FUNCTION  EXTERNAL  
+.data$__security_...          24        2                   NULL      NULL      STATIC    
+.data$__security_...          28        2                   NULL      NULL      STATIC    
+___report_gsfailure           f70       1                   NULL      FUNCTION  EXTERNAL  
+_GS_ExceptionRecord           380       4                   NULL      NULL      STATIC    
+_GS_ContextRecord             80        4                   NULL      NULL      STATIC    
+_GS_ExceptionPoin...          258       3                   NULL      NULL      STATIC    
+                              ec0       1                   NULL      NULL      STATIC    
+                              14        2                   NULL      NULL      STATIC    
+                              80        4                   NULL      NULL      STATIC    
+                              258       3                   NULL      NULL      STATIC    
+.debug_info                   6d5e      9                   NULL      NULL      STATIC    
+.debug_abbrev                 119f      10                  NULL      NULL      STATIC    
+.debug_loc                    849       14                  NULL      NULL      STATIC    
+.debug_aranges                1d8       8                   NULL      NULL      STATIC    
+.debug_line                   10b6      11                  NULL      NULL      STATIC    
+.debug_str                    285       13                  NULL      NULL      STATIC    
+.rdata$zzz                    3cc       3                   NULL      NULL      STATIC    
+.debug_frame                  3c0       12                  NULL      NULL      STATIC    
+                              1fd       DEBUG               NULL      NULL      FILE      
+                              1000      1                   NULL      NULL      STATIC    
+                              14        2                   NULL      NULL      STATIC    
+                              400       4                   NULL      NULL      STATIC    
+.debug_info                   765e      9                   NULL      NULL      STATIC    
+.debug_abbrev                 1347      10                  NULL      NULL      STATIC    
+.debug_aranges                1f8       8                   NULL      NULL      STATIC    
+.debug_line                   11d2      11                  NULL      NULL      STATIC    
+.rdata$zzz                    3e0       3                   NULL      NULL      STATIC    
+                              21d       DEBUG               NULL      NULL      FILE      
+___mingwthr_run_k...          1000      1                   NULL      FUNCTION  STATIC    
+___mingwthr_cs                408       4                   NULL      NULL      STATIC    
+_key_dtor_list                400       4                   NULL      NULL      STATIC    
+____w64_mingwthr_...          1070      1                   NULL      FUNCTION  EXTERNAL  
+___mingwthr_cs_init           404       4                   NULL      NULL      STATIC    
+____w64_mingwthr_...          10f0      1                   NULL      FUNCTION  EXTERNAL  
+___mingw_TLScallback          1190      1                   NULL      FUNCTION  EXTERNAL  
+                              1000      1                   NULL      NULL      STATIC    
+                              18        2                   NULL      NULL      STATIC    
+                              400       4                   NULL      NULL      STATIC    
+.debug_info                   7709      9                   NULL      NULL      STATIC    
+.debug_abbrev                 1371      10                  NULL      NULL      STATIC    
+.debug_loc                    90d       14                  NULL      NULL      STATIC    
+.debug_aranges                210       8                   NULL      NULL      STATIC    
+.debug_ranges                 148       15                  NULL      NULL      STATIC    
+.debug_line                   122f      11                  NULL      NULL      STATIC    
+.rdata$zzz                    3f4       3                   NULL      NULL      STATIC    
+.debug_frame                  44c       12                  NULL      NULL      STATIC    
+                              22f       DEBUG               NULL      NULL      FILE      
+                              1230      1                   NULL      NULL      STATIC    
+                              18        2                   NULL      NULL      STATIC    
+                              420       4                   NULL      NULL      STATIC    
+.debug_info                   7efd      9                   NULL      NULL      STATIC    
+.debug_abbrev                 151a      10                  NULL      NULL      STATIC    
+.debug_aranges                230       8                   NULL      NULL      STATIC    
+.debug_line                   13a5      11                  NULL      NULL      STATIC    
+.rdata$zzz                    408       3                   NULL      NULL      STATIC    
+                              254       DEBUG               NULL      NULL      FILE      
+__ValidateImageBa...          1230      1                   NULL      FUNCTION  STATIC    
+__ValidateImageBase           1250      1                   NULL      FUNCTION  EXTERNAL  
+__FindPESection               1270      1                   NULL      FUNCTION  EXTERNAL  
+__FindPESectionBy...          12b0      1                   NULL      FUNCTION  EXTERNAL  
+___mingw_GetSecti...          1350      1                   NULL      FUNCTION  EXTERNAL  
+___mingw_GetSecti...          13a0      1                   NULL      FUNCTION  EXTERNAL  
+__FindPESectionExec           13d0      1                   NULL      FUNCTION  EXTERNAL  
+__GetPEImageBase              1450      1                   NULL      FUNCTION  EXTERNAL  
+__IsNonwritableIn...          1480      1                   NULL      FUNCTION  EXTERNAL  
+___mingw_enum_imp...          14e0      1                   NULL      FUNCTION  EXTERNAL  
+                              1230      1                   NULL      NULL      STATIC    
+                              18        2                   NULL      NULL      STATIC    
+                              424       4                   NULL      NULL      STATIC    
+.debug_info                   7ff8      9                   NULL      NULL      STATIC    
+.debug_abbrev                 1544      10                  NULL      NULL      STATIC    
+.debug_loc                    a0c       14                  NULL      NULL      STATIC    
+.debug_aranges                248       8                   NULL      NULL      STATIC    
+.debug_ranges                 178       15                  NULL      NULL      STATIC    
+.debug_line                   140c      11                  NULL      NULL      STATIC    
+.debug_str                    29e       13                  NULL      NULL      STATIC    
+.rdata$zzz                    41c       3                   NULL      NULL      STATIC    
+.debug_frame                  548       12                  NULL      NULL      STATIC    
+                              266       DEBUG               NULL      NULL      FILE      
+.debug_info                   91b9      9                   NULL      NULL      STATIC    
+.debug_abbrev                 1787      10                  NULL      NULL      STATIC    
+.debug_line                   15e7      11                  NULL      NULL      STATIC    
+                              1580      1                   NULL      NULL      STATIC    
+                              18        2                   NULL      NULL      STATIC    
+                              424       4                   NULL      NULL      STATIC    
+.debug_aranges                268       8                   NULL      NULL      STATIC    
+.debug_frame                  714       12                  NULL      NULL      STATIC    
+                              278       DEBUG               NULL      NULL      FILE      
+                              15ac      1                   NULL      NULL      STATIC    
+                              18        2                   NULL      NULL      STATIC    
+                              424       4                   NULL      NULL      STATIC    
+.debug_info                   9261      9                   NULL      NULL      STATIC    
+.debug_abbrev                 179b      10                  NULL      NULL      STATIC    
+.debug_aranges                288       8                   NULL      NULL      STATIC    
+.debug_line                   1661      11                  NULL      NULL      STATIC    
+.rdata$zzz                    430       3                   NULL      NULL      STATIC    
+                              2ad       DEBUG               NULL      NULL      FILE      
+                              15ac      1                   NULL      NULL      STATIC    
+                              18        2                   NULL      NULL      STATIC    
+                              424       4                   NULL      NULL      STATIC    
+.debug_info                   9f37      9                   NULL      NULL      STATIC    
+.debug_abbrev                 180e      10                  NULL      NULL      STATIC    
+.debug_aranges                2a0       8                   NULL      NULL      STATIC    
+.debug_line                   1705      11                  NULL      NULL      STATIC    
+.rdata$zzz                    448       3                   NULL      NULL      STATIC    
+                              15ac      1                   NULL      NULL      STATIC    
+                              1c        2                   NULL      NULL      STATIC    
+                              424       4                   NULL      NULL      STATIC    
+                              51c       5                   NULL      NULL      STATIC    
+                              178       5                   NULL      NULL      STATIC    
+                              b0        5                   NULL      NULL      STATIC    
+                              3de       5                   NULL      NULL      STATIC    
+                              15ac      1                   NULL      NULL      STATIC    
+                              1c        2                   NULL      NULL      STATIC    
+                              424       4                   NULL      NULL      STATIC    
+                              510       5                   NULL      NULL      STATIC    
+                              16c       5                   NULL      NULL      STATIC    
+                              a4        5                   NULL      NULL      STATIC    
+                              3bc       5                   NULL      NULL      STATIC    
+                              15ac      1                   NULL      NULL      STATIC    
+                              1c        2                   NULL      NULL      STATIC    
+                              424       4                   NULL      NULL      STATIC    
+                              500       5                   NULL      NULL      STATIC    
+                              15c       5                   NULL      NULL      STATIC    
+                              94        5                   NULL      NULL      STATIC    
+                              37a       5                   NULL      NULL      STATIC    
+                              15ac      1                   NULL      NULL      STATIC    
+                              1c        2                   NULL      NULL      STATIC    
+                              424       4                   NULL      NULL      STATIC    
+                              508       5                   NULL      NULL      STATIC    
+                              164       5                   NULL      NULL      STATIC    
+                              9c        5                   NULL      NULL      STATIC    
+                              396       5                   NULL      NULL      STATIC    
+                              15b4      1                   NULL      NULL      STATIC    
+                              1c        2                   NULL      NULL      STATIC    
+                              424       4                   NULL      NULL      STATIC    
+                              4fc       5                   NULL      NULL      STATIC    
+                              158       5                   NULL      NULL      STATIC    
+                              90        5                   NULL      NULL      STATIC    
+                              36a       5                   NULL      NULL      STATIC    
+                              36a       DEBUG               NULL      NULL      FILE      
+_mingw_get_invali...          15c0      1                   NULL      FUNCTION  STATIC    
+                              424       4                   NULL      NULL      STATIC    
+__get_invalid_par...          15c0      1                   NULL      FUNCTION  EXTERNAL  
+_mingw_set_invali...          15d0      1                   NULL      FUNCTION  STATIC    
+__set_invalid_par...          15d0      1                   NULL      FUNCTION  EXTERNAL  
+                              15c0      1                   NULL      NULL      STATIC    
+                              1c        2                   NULL      NULL      STATIC    
+                              424       4                   NULL      NULL      STATIC    
+.debug_info                   9ffe      9                   NULL      NULL      STATIC    
+.debug_abbrev                 1838      10                  NULL      NULL      STATIC    
+.debug_loc                    cfb       14                  NULL      NULL      STATIC    
+.debug_aranges                2b8       8                   NULL      NULL      STATIC    
+.debug_line                   1769      11                  NULL      NULL      STATIC    
+.rdata$zzz                    45c       3                   NULL      NULL      STATIC    
+.debug_frame                  74c       12                  NULL      NULL      STATIC    
+                              15e0      1                   NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              54c       5                   NULL      NULL      STATIC    
+                              1a8       5                   NULL      NULL      STATIC    
+                              e0        5                   NULL      NULL      STATIC    
+                              44e       5                   NULL      NULL      STATIC    
+                              15e8      1                   NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              560       5                   NULL      NULL      STATIC    
+                              1bc       5                   NULL      NULL      STATIC    
+                              f4        5                   NULL      NULL      STATIC    
+                              47c       5                   NULL      NULL      STATIC    
+                              15f0      1                   NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              550       5                   NULL      NULL      STATIC    
+                              1ac       5                   NULL      NULL      STATIC    
+                              e4        5                   NULL      NULL      STATIC    
+                              458       5                   NULL      NULL      STATIC    
+                              15f8      1                   NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              518       5                   NULL      NULL      STATIC    
+                              174       5                   NULL      NULL      STATIC    
+                              ac        5                   NULL      NULL      STATIC    
+                              3d4       5                   NULL      NULL      STATIC    
+                              1600      1                   NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              514       5                   NULL      NULL      STATIC    
+                              170       5                   NULL      NULL      STATIC    
+                              a8        5                   NULL      NULL      STATIC    
+                              3c6       5                   NULL      NULL      STATIC    
+                              1608      1                   NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              520       5                   NULL      NULL      STATIC    
+                              17c       5                   NULL      NULL      STATIC    
+                              b4        5                   NULL      NULL      STATIC    
+                              3e8       5                   NULL      NULL      STATIC    
+                              1610      1                   NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              53c       5                   NULL      NULL      STATIC    
+                              198       5                   NULL      NULL      STATIC    
+                              d0        5                   NULL      NULL      STATIC    
+                              42a       5                   NULL      NULL      STATIC    
+                              1618      1                   NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              558       5                   NULL      NULL      STATIC    
+                              1b4       5                   NULL      NULL      STATIC    
+                              ec        5                   NULL      NULL      STATIC    
+                              46a       5                   NULL      NULL      STATIC    
+                              1620      1                   NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              554       5                   NULL      NULL      STATIC    
+                              1b0       5                   NULL      NULL      STATIC    
+                              e8        5                   NULL      NULL      STATIC    
+                              462       5                   NULL      NULL      STATIC    
+                              1628      1                   NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              52c       5                   NULL      NULL      STATIC    
+                              188       5                   NULL      NULL      STATIC    
+                              c0        5                   NULL      NULL      STATIC    
+                              404       5                   NULL      NULL      STATIC    
+                              1628      1                   NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              528       5                   NULL      NULL      STATIC    
+                              184       5                   NULL      NULL      STATIC    
+                              bc        5                   NULL      NULL      STATIC    
+                              3fc       5                   NULL      NULL      STATIC    
+                              1630      1                   NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              4f8       5                   NULL      NULL      STATIC    
+                              154       5                   NULL      NULL      STATIC    
+                              8c        5                   NULL      NULL      STATIC    
+                              35c       5                   NULL      NULL      STATIC    
+                              1638      1                   NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              530       5                   NULL      NULL      STATIC    
+                              18c       5                   NULL      NULL      STATIC    
+                              c4        5                   NULL      NULL      STATIC    
+                              40e       5                   NULL      NULL      STATIC    
+                              1640      1                   NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              55c       5                   NULL      NULL      STATIC    
+                              1b8       5                   NULL      NULL      STATIC    
+                              f0        5                   NULL      NULL      STATIC    
+                              472       5                   NULL      NULL      STATIC    
+                              1648      1                   NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              524       5                   NULL      NULL      STATIC    
+                              180       5                   NULL      NULL      STATIC    
+                              b8        5                   NULL      NULL      STATIC    
+                              3f4       5                   NULL      NULL      STATIC    
+                              1648      1                   NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              50c       5                   NULL      NULL      STATIC    
+                              168       5                   NULL      NULL      STATIC    
+                              a0        5                   NULL      NULL      STATIC    
+                              3a8       5                   NULL      NULL      STATIC    
+                              1650      1                   NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              540       5                   NULL      NULL      STATIC    
+                              19c       5                   NULL      NULL      STATIC    
+                              d4        5                   NULL      NULL      STATIC    
+                              432       5                   NULL      NULL      STATIC    
+                              1658      1                   NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              548       5                   NULL      NULL      STATIC    
+                              1a4       5                   NULL      NULL      STATIC    
+                              dc        5                   NULL      NULL      STATIC    
+                              444       5                   NULL      NULL      STATIC    
+                              1660      1                   NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              568       5                   NULL      NULL      STATIC    
+                              1c4       5                   NULL      NULL      STATIC    
+                              fc        5                   NULL      NULL      STATIC    
+                              490       5                   NULL      NULL      STATIC    
+                              1668      1                   NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              534       5                   NULL      NULL      STATIC    
+                              190       5                   NULL      NULL      STATIC    
+                              c8        5                   NULL      NULL      STATIC    
+                              418       5                   NULL      NULL      STATIC    
+                              1670      1                   NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              538       5                   NULL      NULL      STATIC    
+                              194       5                   NULL      NULL      STATIC    
+                              cc        5                   NULL      NULL      STATIC    
+                              420       5                   NULL      NULL      STATIC    
+                              1678      1                   NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              544       5                   NULL      NULL      STATIC    
+                              1a0       5                   NULL      NULL      STATIC    
+                              d8        5                   NULL      NULL      STATIC    
+                              43c       5                   NULL      NULL      STATIC    
+                              1680      1                   NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              564       5                   NULL      NULL      STATIC    
+                              1c0       5                   NULL      NULL      STATIC    
+                              f8        5                   NULL      NULL      STATIC    
+                              486       5                   NULL      NULL      STATIC    
+                              378       DEBUG               NULL      NULL      FILE      
+                              8c        5                   NULL      NULL      STATIC    
+                              154       5                   NULL      NULL      STATIC    
+                              1688      1                   NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              14        5                   NULL      NULL      STATIC    
+                              8c        5                   NULL      NULL      STATIC    
+                              154       5                   NULL      NULL      STATIC    
+                              386       DEBUG               NULL      NULL      FILE      
+                              1688      1                   NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              100       5                   NULL      NULL      STATIC    
+                              1c8       5                   NULL      NULL      STATIC    
+                              56c       5                   NULL      NULL      STATIC    
+                              394       DEBUG               NULL      NULL      FILE      
+                              3c        5                   NULL      NULL      STATIC    
+                              104       5                   NULL      NULL      STATIC    
+                              1688      1                   NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              0         5                   NULL      NULL      STATIC    
+                              3c        5                   NULL      NULL      STATIC    
+                              104       5                   NULL      NULL      STATIC    
+                              3a2       DEBUG               NULL      NULL      FILE      
+                              1688      1                   NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              88        5                   NULL      NULL      STATIC    
+                              150       5                   NULL      NULL      STATIC    
+                              4e8       5                   NULL      NULL      STATIC    
+                              438       DEBUG               NULL      NULL      FILE      
+                              1688      1                   NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+.rdata$zzz                    470       3                   NULL      NULL      STATIC    
+                              0         UNDEFINED           NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              504       5                   NULL      NULL      STATIC    
+                              160       5                   NULL      NULL      STATIC    
+                              98        5                   NULL      NULL      STATIC    
+                              386       5                   NULL      NULL      STATIC    
+                              0         UNDEFINED           NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              4d0       5                   NULL      NULL      STATIC    
+                              138       5                   NULL      NULL      STATIC    
+                              70        5                   NULL      NULL      STATIC    
+                              2f4       5                   NULL      NULL      STATIC    
+                              0         UNDEFINED           NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              4cc       5                   NULL      NULL      STATIC    
+                              134       5                   NULL      NULL      STATIC    
+                              6c        5                   NULL      NULL      STATIC    
+                              2d6       5                   NULL      NULL      STATIC    
+                              0         UNDEFINED           NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              4b4       5                   NULL      NULL      STATIC    
+                              11c       5                   NULL      NULL      STATIC    
+                              54        5                   NULL      NULL      STATIC    
+                              24c       5                   NULL      NULL      STATIC    
+                              0         UNDEFINED           NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              4e4       5                   NULL      NULL      STATIC    
+                              14c       5                   NULL      NULL      STATIC    
+                              84        5                   NULL      NULL      STATIC    
+                              34c       5                   NULL      NULL      STATIC    
+                              0         UNDEFINED           NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              4e0       5                   NULL      NULL      STATIC    
+                              148       5                   NULL      NULL      STATIC    
+                              80        5                   NULL      NULL      STATIC    
+                              33a       5                   NULL      NULL      STATIC    
+                              0         UNDEFINED           NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              4b0       5                   NULL      NULL      STATIC    
+                              118       5                   NULL      NULL      STATIC    
+                              50        5                   NULL      NULL      STATIC    
+                              23c       5                   NULL      NULL      STATIC    
+                              0         UNDEFINED           NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              4b8       5                   NULL      NULL      STATIC    
+                              120       5                   NULL      NULL      STATIC    
+                              58        5                   NULL      NULL      STATIC    
+                              25e       5                   NULL      NULL      STATIC    
+                              0         UNDEFINED           NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              4a8       5                   NULL      NULL      STATIC    
+                              110       5                   NULL      NULL      STATIC    
+                              48        5                   NULL      NULL      STATIC    
+                              210       5                   NULL      NULL      STATIC    
+                              0         UNDEFINED           NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              4ac       5                   NULL      NULL      STATIC    
+                              114       5                   NULL      NULL      STATIC    
+                              4c        5                   NULL      NULL      STATIC    
+                              226       5                   NULL      NULL      STATIC    
+                              0         UNDEFINED           NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              4bc       5                   NULL      NULL      STATIC    
+                              124       5                   NULL      NULL      STATIC    
+                              5c        5                   NULL      NULL      STATIC    
+                              278       5                   NULL      NULL      STATIC    
+                              0         UNDEFINED           NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              4c8       5                   NULL      NULL      STATIC    
+                              130       5                   NULL      NULL      STATIC    
+                              68        5                   NULL      NULL      STATIC    
+                              2bc       5                   NULL      NULL      STATIC    
+                              0         UNDEFINED           NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              4dc       5                   NULL      NULL      STATIC    
+                              144       5                   NULL      NULL      STATIC    
+                              7c        5                   NULL      NULL      STATIC    
+                              31e       5                   NULL      NULL      STATIC    
+                              0         UNDEFINED           NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              4a4       5                   NULL      NULL      STATIC    
+                              10c       5                   NULL      NULL      STATIC    
+                              44        5                   NULL      NULL      STATIC    
+                              1fc       5                   NULL      NULL      STATIC    
+                              0         UNDEFINED           NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              4d4       5                   NULL      NULL      STATIC    
+                              13c       5                   NULL      NULL      STATIC    
+                              74        5                   NULL      NULL      STATIC    
+                              2fc       5                   NULL      NULL      STATIC    
+                              0         UNDEFINED           NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              4a0       5                   NULL      NULL      STATIC    
+                              108       5                   NULL      NULL      STATIC    
+                              40        5                   NULL      NULL      STATIC    
+                              1e4       5                   NULL      NULL      STATIC    
+                              0         UNDEFINED           NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              4d8       5                   NULL      NULL      STATIC    
+                              140       5                   NULL      NULL      STATIC    
+                              78        5                   NULL      NULL      STATIC    
+                              310       5                   NULL      NULL      STATIC    
+                              0         UNDEFINED           NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              4c4       5                   NULL      NULL      STATIC    
+                              12c       5                   NULL      NULL      STATIC    
+                              64        5                   NULL      NULL      STATIC    
+                              2a4       5                   NULL      NULL      STATIC    
+                              0         UNDEFINED           NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              49c       5                   NULL      NULL      STATIC    
+                              104       5                   NULL      NULL      STATIC    
+                              3c        5                   NULL      NULL      STATIC    
+                              1cc       5                   NULL      NULL      STATIC    
+                              0         UNDEFINED           NULL      NULL      STATIC    
+                              24        2                   NULL      NULL      STATIC    
+                              428       4                   NULL      NULL      STATIC    
+                              4c0       5                   NULL      NULL      STATIC    
+                              128       5                   NULL      NULL      STATIC    
+                              60        5                   NULL      NULL      STATIC    
+                              288       5                   NULL      NULL      STATIC    
+                              15f8      1                   NULL      FUNCTION  EXTERNAL  
+_VirtualProtect@16            0         ABSOLUTE            NULL      NULL      EXTERNAL  
+___RUNTIME_PSEUDO...          404484    ABSOLUTE            NULL      NULL      EXTERNAL  
+_QueryPerformance...          0         ABSOLUTE            NULL      NULL      EXTERNAL  
+__data_start__                0         2                   NULL      NULL      EXTERNAL  
+___DTOR_LIST__                1690      1                   NULL      NULL      EXTERNAL  
+                              c         6                   NULL      NULL      EXTERNAL  
+                              1678      1                   NULL      FUNCTION  EXTERNAL  
+__imp__VirtualPro...          148       5                   NULL      NULL      EXTERNAL  
+__imp___acmdln                16c       5                   NULL      NULL      EXTERNAL  
+___setusermatherr             1648      1                   NULL      FUNCTION  EXTERNAL  
+_UnhandledExcepti...          0         ABSOLUTE            NULL      NULL      EXTERNAL  
+__imp___onexit                188       5                   NULL      NULL      EXTERNAL  
+__imp__GetLastErr...          118       5                   NULL      NULL      EXTERNAL  
+_SetUnhandledExce...          0         ABSOLUTE            NULL      NULL      EXTERNAL  
+__imp__VirtualQue...          14c       5                   NULL      NULL      EXTERNAL  
+___tls_start__                0         7                   NULL      NULL      EXTERNAL  
+___native_startup...          438       4                   NULL      NULL      EXTERNAL  
+__imp__TlsGetValue@4          140       5                   NULL      NULL      EXTERNAL  
+__imp__Initialize...          128       5                   NULL      NULL      EXTERNAL  
+_DeleteCriticalSe...          0         ABSOLUTE            NULL      NULL      EXTERNAL  
+__rt_psrelocs_start           484       3                   NULL      NULL      EXTERNAL  
+__imp__abort                  190       5                   NULL      NULL      EXTERNAL  
+                              20        6                   NULL      NULL      EXTERNAL  
+__dll_characteris...          0         ABSOLUTE            NULL      NULL      EXTERNAL  
+__size_of_stack_c...          1000      ABSOLUTE            NULL      NULL      EXTERNAL  
+__imp___fmode                 178       5                   NULL      NULL      EXTERNAL  
+__size_of_stack_r...          200000    ABSOLUTE            NULL      NULL      EXTERNAL  
+__major_subsystem...          4         ABSOLUTE            NULL      NULL      EXTERNAL  
+___crt_xl_start__             1c        6                   NULL      NULL      EXTERNAL  
+__newmode                     3c        4                   NULL      NULL      EXTERNAL  
+___crt_xi_start__             c         6                   NULL      NULL      EXTERNAL  
+__imp___amsg_exit             170       5                   NULL      NULL      EXTERNAL  
+___crt_xi_end__               1c        6                   NULL      NULL      EXTERNAL  
+                              28        6                   NULL      NULL      EXTERNAL  
+_GetLastError@0               0         ABSOLUTE            NULL      NULL      EXTERNAL  
+                              1620      1                   NULL      FUNCTION  EXTERNAL  
+                              1638      1                   NULL      FUNCTION  EXTERNAL  
+__imp__QueryPerfo...          130       5                   NULL      NULL      EXTERNAL  
+_VirtualQuery@12              0         ABSOLUTE            NULL      NULL      EXTERNAL  
+_mingw_initltsdro...          28        4                   NULL      NULL      EXTERNAL  
+__imp___iob                   180       5                   NULL      NULL      EXTERNAL  
+__dowildcard                  40        4                   NULL      NULL      EXTERNAL  
+__imp__strncmp                1c0       5                   NULL      NULL      EXTERNAL  
+__bss_start__                 0         4                   NULL      NULL      EXTERNAL  
+___RUNTIME_PSEUDO...          484       3                   NULL      NULL      EXTERNAL  
+                              1618      1                   NULL      FUNCTION  EXTERNAL  
+__size_of_heap_co...          1000      ABSOLUTE            NULL      NULL      EXTERNAL  
+___onexitend                  430       4                   NULL      NULL      EXTERNAL  
+__imp__GetCurrent...          10c       5                   NULL      NULL      EXTERNAL  
+_mingw_pcinit                 10        6                   NULL      NULL      EXTERNAL  
+___crt_xp_start__             2c        6                   NULL      NULL      EXTERNAL  
+__MINGW_INSTALL_D...          18        2                   NULL      NULL      EXTERNAL  
+___crt_xp_end__               2c        6                   NULL      NULL      EXTERNAL  
+__imp__signal                 1b8       5                   NULL      NULL      EXTERNAL  
+                              0         ABSOLUTE            NULL      NULL      EXTERNAL  
+__imp__puts                   1b0       5                   NULL      NULL      EXTERNAL  
+__minor_os_version__          0         ABSOLUTE            NULL      NULL      EXTERNAL  
+                              1658      1                   NULL      FUNCTION  EXTERNAL  
+_GetTickCount@0               0         ABSOLUTE            NULL      NULL      EXTERNAL  
+__image_base__                400000    ABSOLUTE            NULL      NULL      EXTERNAL  
+__imp__exit                   198       5                   NULL      NULL      EXTERNAL  
+__section_alignme...          1000      ABSOLUTE            NULL      NULL      EXTERNAL  
+                              0         6                   NULL      NULL      EXTERNAL  
+                              15f0      1                   NULL      FUNCTION  EXTERNAL  
+__imp__GetStartup...          11c       5                   NULL      NULL      EXTERNAL  
+__IAT_end__                   1cc       5                   NULL      NULL      EXTERNAL  
+__imp____lconv_init           160       5                   NULL      NULL      EXTERNAL  
+__RUNTIME_PSEUDO_...          404484    ABSOLUTE            NULL      NULL      EXTERNAL  
+__tls_start                   0         7                   NULL      NULL      EXTERNAL  
+___native_startup...          43c       4                   NULL      NULL      EXTERNAL  
+__data_end__                  2c        2                   NULL      NULL      EXTERNAL  
+___getmainargs                15b4      1                   NULL      FUNCTION  EXTERNAL  
+                              1c        6                   NULL      NULL      EXTERNAL  
+                              24        6                   NULL      NULL      EXTERNAL  
+__CTOR_LIST__                 1688      1                   NULL      NULL      EXTERNAL  
+___onexitbegin                434       4                   NULL      NULL      EXTERNAL  
+___set_app_type               15ac      1                   NULL      FUNCTION  EXTERNAL  
+                              14        2                   NULL      NULL      EXTERNAL  
+__charmax                     4         2                   NULL      NULL      EXTERNAL  
+___mingw_winmain_...          428       4                   NULL      NULL      EXTERNAL  
+__bss_end__                   450       4                   NULL      NULL      EXTERNAL  
+__imp__scanf                  1b4       5                   NULL      NULL      EXTERNAL  
+___security_cooki...          28        2                   NULL      NULL      EXTERNAL  
+___crt_xc_end__               c         6                   NULL      NULL      EXTERNAL  
+                              1650      1                   NULL      FUNCTION  EXTERNAL  
+__tls_index                   2c        4                   NULL      NULL      EXTERNAL  
+__imp__GetTickCou...          124       5                   NULL      NULL      EXTERNAL  
+___crt_xc_start__             0         6                   NULL      NULL      EXTERNAL  
+__lib32_libkernel...          4e8       5                   NULL      NULL      EXTERNAL  
+___CTOR_LIST__                1688      1                   NULL      NULL      EXTERNAL  
+__imp__GetCurrent...          110       5                   NULL      NULL      EXTERNAL  
+_mingw_app_type               34        4                   NULL      NULL      EXTERNAL  
+__initterm                    1608      1                   NULL      FUNCTION  EXTERNAL  
+                              1670      1                   NULL      FUNCTION  EXTERNAL  
+__imp__TerminateP...          13c       5                   NULL      NULL      EXTERNAL  
+                              38        4                   NULL      NULL      EXTERNAL  
+__rt_psrelocs_size            0         ABSOLUTE            NULL      NULL      EXTERNAL  
+_GetStartupInfoA@4            0         ABSOLUTE            NULL      NULL      EXTERNAL  
+_GetCurrentProces...          0         ABSOLUTE            NULL      NULL      EXTERNAL  
+__imp____dllonexit            154       5                   NULL      NULL      EXTERNAL  
+__imp__memcpy                 1ac       5                   NULL      NULL      EXTERNAL  
+__file_alignment__            200       ABSOLUTE            NULL      NULL      EXTERNAL  
+__imp___unlock                18c       5                   NULL      NULL      EXTERNAL  
+__head_lib32_libm...          14        5                   NULL      NULL      EXTERNAL  
+__imp__LeaveCriti...          12c       5                   NULL      NULL      EXTERNAL  
+__imp__malloc                 1a8       5                   NULL      NULL      EXTERNAL  
+___mingw_pinit                14        6                   NULL      NULL      EXTERNAL  
+__major_os_version__          4         ABSOLUTE            NULL      NULL      EXTERNAL  
+__lib32_libmsvcrt...          56c       5                   NULL      NULL      EXTERNAL  
+                              1628      1                   NULL      FUNCTION  EXTERNAL  
+__IAT_start__                 104       5                   NULL      NULL      EXTERNAL  
+                              8         6                   NULL      NULL      EXTERNAL  
+__tls_end                     1c        7                   NULL      NULL      EXTERNAL  
+                              1000      7                   NULL      NULL      EXTERNAL  
+__imp____initenv              15c       5                   NULL      NULL      EXTERNAL  
+__imp___get_inval...          1c        2                   NULL      NULL      EXTERNAL  
+___dllonexit                  1630      1                   NULL      FUNCTION  EXTERNAL  
+                              1640      1                   NULL      FUNCTION  EXTERNAL  
+__imp___lock                  184       5                   NULL      NULL      EXTERNAL  
+                              15e0      1                   NULL      FUNCTION  EXTERNAL  
+__DTOR_LIST__                 1690      1                   NULL      NULL      EXTERNAL  
+__imp__fprintf                19c       5                   NULL      NULL      EXTERNAL  
+_TerminateProcess@8           0         ABSOLUTE            NULL      NULL      EXTERNAL  
+_EnterCriticalSec...          0         ABSOLUTE            NULL      NULL      EXTERNAL  
+__imp___initterm              17c       5                   NULL      NULL      EXTERNAL  
+_GetCurrentThread...          0         ABSOLUTE            NULL      NULL      EXTERNAL  
+__size_of_heap_re...          100000    ABSOLUTE            NULL      NULL      EXTERNAL  
+___crt_xt_start__             2c        6                   NULL      NULL      EXTERNAL  
+___ImageBase                  400000    ABSOLUTE            NULL      NULL      EXTERNAL  
+__subsystem__                 3         ABSOLUTE            NULL      NULL      EXTERNAL  
+__imp__strlen                 1bc       5                   NULL      NULL      EXTERNAL  
+___mingw_oldexcpt...          44        4                   NULL      NULL      EXTERNAL  
+__imp__calloc                 194       5                   NULL      NULL      EXTERNAL  
+                              1668      1                   NULL      FUNCTION  EXTERNAL  
+___native_vcclrit...          8         2                   NULL      NULL      EXTERNAL  
+__imp__GetSystemT...          120       5                   NULL      NULL      EXTERNAL  
+___lconv_init                 0         ABSOLUTE            NULL      NULL      EXTERNAL  
+__amsg_exit                   1600      1                   NULL      FUNCTION  EXTERNAL  
+__imp____getmainargs          158       5                   NULL      NULL      EXTERNAL  
+___mingw_winmain_...          0         2                   NULL      NULL      EXTERNAL  
+___native_dllmain...          c         2                   NULL      NULL      EXTERNAL  
+___tls_end__                  20        7                   NULL      NULL      EXTERNAL  
+_GetSystemTimeAsF...          0         ABSOLUTE            NULL      NULL      EXTERNAL  
+_mingw_pcppinit               4         6                   NULL      NULL      EXTERNAL  
+                              18        6                   NULL      NULL      EXTERNAL  
+_GetCurrentProcess@0          0         ABSOLUTE            NULL      NULL      EXTERNAL  
+_mingw_initltssuo...          20        4                   NULL      NULL      EXTERNAL  
+                              1680      1                   NULL      FUNCTION  EXTERNAL  
+_InitializeCritic...          0         ABSOLUTE            NULL      NULL      EXTERNAL  
+__imp__free                   1a0       5                   NULL      NULL      EXTERNAL  
+__imp__SetUnhandl...          134       5                   NULL      NULL      EXTERNAL  
+__imp___set_inval...          20        2                   NULL      NULL      EXTERNAL  
+__major_image_ver...          1         ABSOLUTE            NULL      NULL      EXTERNAL  
+__loader_flags__              0         ABSOLUTE            NULL      NULL      EXTERNAL  
+__imp__UnhandledE...          144       5                   NULL      NULL      EXTERNAL  
+__head_lib32_libk...          0         5                   NULL      NULL      EXTERNAL  
+___chkstk_ms                  1580      1                   NULL      NULL      EXTERNAL  
+__rt_psrelocs_end             484       3                   NULL      NULL      EXTERNAL  
+__imp___cexit                 174       5                   NULL      NULL      EXTERNAL  
+__minor_subsystem...          0         ABSOLUTE            NULL      NULL      EXTERNAL  
+__minor_image_ver...          0         ABSOLUTE            NULL      NULL      EXTERNAL  
+__imp__Sleep@4                138       5                   NULL      NULL      EXTERNAL  
+__imp__vfprintf               1c4       5                   NULL      NULL      EXTERNAL  
+                              15e8      1                   NULL      FUNCTION  EXTERNAL  
+__imp____set_app_...          164       5                   NULL      NULL      EXTERNAL  
+___mingw_winmain_...          42c       4                   NULL      NULL      EXTERNAL  
+_mingw_initltsdyn...          24        4                   NULL      NULL      EXTERNAL  
+__imp__GetCurrent...          114       5                   NULL      NULL      EXTERNAL  
+                              1610      1                   NULL      FUNCTION  EXTERNAL  
+_TlsGetValue@4                0         ABSOLUTE            NULL      NULL      EXTERNAL  
+__imp__DeleteCrit...          104       5                   NULL      NULL      EXTERNAL  
+___security_cookie            24        2                   NULL      NULL      EXTERNAL  
+_LeaveCriticalSec...          0         ABSOLUTE            NULL      NULL      EXTERNAL  
+__RUNTIME_PSEUDO_...          484       3                   NULL      NULL      EXTERNAL  
+___dyn_tls_init_c...          28        3                   NULL      NULL      EXTERNAL  
+                              0         ABSOLUTE            NULL      NULL      EXTERNAL  
+_mingw_initcharmax            30        4                   NULL      NULL      EXTERNAL  
+__imp____setuserm...          168       5                   NULL      NULL      EXTERNAL  
+__tls_used                    4         7                   NULL      NULL      EXTERNAL  
+___crt_xt_end__               2c        6                   NULL      NULL      EXTERNAL  
+_vfprintf                     1660      1                   NULL      FUNCTION  EXTERNAL  
+__imp__EnterCriti...          108       5                   NULL      NULL      EXTERNAL  
+__imp__fwrite                 1a4       5                   NULL      NULL      EXTERNAL  
+
+
