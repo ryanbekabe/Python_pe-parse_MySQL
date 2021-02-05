@@ -1,0 +1,492 @@
+* Manalyze 0.9 *
+
+-------------------------------------------------------------------------------
+/home/python_proj/Manalyze/bin/02263a0c8cb038dc23562918ca99b18e
+-------------------------------------------------------------------------------
+
+Sections:
+---------
+.text:
+    MD5:                  cf6b127deb14eb6a0a76a6a7b7b7b18a
+    SHA1:                 7bd26d1c89c666bce14929aecfc8c19bb778c474
+    SHA256:               2c17490e793ebec34d2e7ec71e68774cf0641af314f754f533c5fe29ffc2b03b
+    SHA3:                 28df80a1ddbf9df69ba8f64356537bff8578dd7e490fa5154edd764f2ef1c333
+    VirtualSize:          0x00001698
+    VirtualAddress:       0x00001000
+    SizeOfRawData:        0x00001800
+    PointerToRawData:     0x00000400
+    PointerToRelocations: 0x00000000
+    PointerToLineNumbers: 0x00000000
+    NumberOfLineNumbers:  0
+    NumberOfRelocations:  0
+    Characteristics:      IMAGE_SCN_ALIGN_1024BYTES
+                          IMAGE_SCN_ALIGN_16BYTES
+                          IMAGE_SCN_ALIGN_1BYTES
+                          IMAGE_SCN_ALIGN_2048BYTES
+                          IMAGE_SCN_ALIGN_256BYTES
+                          IMAGE_SCN_ALIGN_32BYTES
+                          IMAGE_SCN_ALIGN_4096BYTES
+                          IMAGE_SCN_ALIGN_4BYTES
+                          IMAGE_SCN_ALIGN_64BYTES
+                          IMAGE_SCN_ALIGN_8192BYTES
+                          IMAGE_SCN_ALIGN_8BYTES
+                          IMAGE_SCN_ALIGN_MASK
+                          IMAGE_SCN_CNT_CODE
+                          IMAGE_SCN_MEM_EXECUTE
+                          IMAGE_SCN_MEM_READ
+    Entropy:              5.74652
+
+.data:
+    MD5:                  800562aec4dc77eec1d8158be2783705
+    SHA1:                 0cb3de2aa562085c5b0977c29b4c868943e8f23e
+    SHA256:               7c6cd88a8a1f2aad54cc5cd88b1103f4f5586989e6e44878c2bceab782133cc9
+    SHA3:                 4cab0f64c1d378a3f686b291bebc22318b9b34d9ae9194c56d8287b1417c01f1
+    VirtualSize:          0x0000002C
+    VirtualAddress:       0x00003000
+    SizeOfRawData:        0x00000200
+    PointerToRawData:     0x00001C00
+    PointerToRelocations: 0x00000000
+    PointerToLineNumbers: 0x00000000
+    NumberOfLineNumbers:  0
+    NumberOfRelocations:  0
+    Characteristics:      IMAGE_SCN_ALIGN_1024BYTES
+                          IMAGE_SCN_ALIGN_16BYTES
+                          IMAGE_SCN_ALIGN_1BYTES
+                          IMAGE_SCN_ALIGN_256BYTES
+                          IMAGE_SCN_ALIGN_2BYTES
+                          IMAGE_SCN_ALIGN_32BYTES
+                          IMAGE_SCN_ALIGN_4096BYTES
+                          IMAGE_SCN_ALIGN_4BYTES
+                          IMAGE_SCN_ALIGN_512BYTES
+                          IMAGE_SCN_ALIGN_64BYTES
+                          IMAGE_SCN_ALIGN_8192BYTES
+                          IMAGE_SCN_ALIGN_MASK
+                          IMAGE_SCN_CNT_INITIALIZED_DATA
+                          IMAGE_SCN_MEM_READ
+                          IMAGE_SCN_MEM_WRITE
+    Entropy:              0.536302
+
+.rdata:
+    MD5:                  d961e2b56a35e95d1aa2a3a575dc40c4
+    SHA1:                 a670420221ed31b8312d362710fbc6623a74ebb9
+    SHA256:               8ad9bc2e13a47eba40379096e8fd8546d318d85b808570f94b46c72c063f7184
+    SHA3:                 346066a97413c33589db4328341e86afab5d191c2a7eeb2895a4df62cfd7c28e
+    VirtualSize:          0x00000484
+    VirtualAddress:       0x00004000
+    SizeOfRawData:        0x00000600
+    PointerToRawData:     0x00001E00
+    PointerToRelocations: 0x00000000
+    PointerToLineNumbers: 0x00000000
+    NumberOfLineNumbers:  0
+    NumberOfRelocations:  0
+    Characteristics:      IMAGE_SCN_ALIGN_1024BYTES
+                          IMAGE_SCN_ALIGN_16BYTES
+                          IMAGE_SCN_ALIGN_1BYTES
+                          IMAGE_SCN_ALIGN_256BYTES
+                          IMAGE_SCN_ALIGN_2BYTES
+                          IMAGE_SCN_ALIGN_32BYTES
+                          IMAGE_SCN_ALIGN_4096BYTES
+                          IMAGE_SCN_ALIGN_4BYTES
+                          IMAGE_SCN_ALIGN_512BYTES
+                          IMAGE_SCN_ALIGN_64BYTES
+                          IMAGE_SCN_ALIGN_8192BYTES
+                          IMAGE_SCN_ALIGN_MASK
+                          IMAGE_SCN_CNT_INITIALIZED_DATA
+                          IMAGE_SCN_MEM_READ
+    Entropy:              4.28099
+
+.bss:
+    MD5:                  d41d8cd98f00b204e9800998ecf8427e
+    SHA1:                 da39a3ee5e6b4b0d3255bfef95601890afd80709
+    SHA256:               e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    SHA3:                 a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a
+    VirtualSize:          0x00000450
+    VirtualAddress:       0x00005000
+    SizeOfRawData:        0x00000000
+    PointerToRawData:     0x00000000
+    PointerToRelocations: 0x00000000
+    PointerToLineNumbers: 0x00000000
+    NumberOfLineNumbers:  0
+    NumberOfRelocations:  0
+    Characteristics:      IMAGE_SCN_ALIGN_1024BYTES
+                          IMAGE_SCN_ALIGN_16BYTES
+                          IMAGE_SCN_ALIGN_1BYTES
+                          IMAGE_SCN_ALIGN_2048BYTES
+                          IMAGE_SCN_ALIGN_256BYTES
+                          IMAGE_SCN_ALIGN_2BYTES
+                          IMAGE_SCN_ALIGN_32BYTES
+                          IMAGE_SCN_ALIGN_4096BYTES
+                          IMAGE_SCN_ALIGN_4BYTES
+                          IMAGE_SCN_ALIGN_512BYTES
+                          IMAGE_SCN_ALIGN_64BYTES
+                          IMAGE_SCN_ALIGN_8192BYTES
+                          IMAGE_SCN_ALIGN_8BYTES
+                          IMAGE_SCN_ALIGN_MASK
+                          IMAGE_SCN_CNT_UNINITIALIZED_DATA
+                          IMAGE_SCN_MEM_READ
+                          IMAGE_SCN_MEM_WRITE
+
+.idata:
+    MD5:                  c45dc7c90c72efff4ff82fd40111f124
+    SHA1:                 946ee426ea04ea0b6c81e921340f872ac2091373
+    SHA256:               ca52a8228308a5360e2d8b7e2ada997105839d69233bf684bf5ffccd488af48c
+    SHA3:                 b40efd2568840e8c4ab58a4f09695db82425db362c7f8cbeb126f01915e8e9e8
+    VirtualSize:          0x00000578
+    VirtualAddress:       0x00006000
+    SizeOfRawData:        0x00000600
+    PointerToRawData:     0x00002400
+    PointerToRelocations: 0x00000000
+    PointerToLineNumbers: 0x00000000
+    NumberOfLineNumbers:  0
+    NumberOfRelocations:  0
+    Characteristics:      IMAGE_SCN_ALIGN_1024BYTES
+                          IMAGE_SCN_ALIGN_16BYTES
+                          IMAGE_SCN_ALIGN_1BYTES
+                          IMAGE_SCN_ALIGN_256BYTES
+                          IMAGE_SCN_ALIGN_2BYTES
+                          IMAGE_SCN_ALIGN_32BYTES
+                          IMAGE_SCN_ALIGN_4096BYTES
+                          IMAGE_SCN_ALIGN_4BYTES
+                          IMAGE_SCN_ALIGN_512BYTES
+                          IMAGE_SCN_ALIGN_64BYTES
+                          IMAGE_SCN_ALIGN_8192BYTES
+                          IMAGE_SCN_ALIGN_MASK
+                          IMAGE_SCN_CNT_INITIALIZED_DATA
+                          IMAGE_SCN_MEM_READ
+                          IMAGE_SCN_MEM_WRITE
+    Entropy:              4.33986
+
+.CRT:
+    MD5:                  ee6fd9acb6dc8a211bd96d841bf3c4d1
+    SHA1:                 db401c366c458265137318911183f5b4c8047e02
+    SHA256:               0e06ac3a0fb68a42d1d43dd95104d484dd6e190db28d6136a1d6e8744eec3a7a
+    SHA3:                 80e36124682b4a53f0870b870e594332a8eb86c4fc799297a8a2264018ce0a5c
+    VirtualSize:          0x00000034
+    VirtualAddress:       0x00007000
+    SizeOfRawData:        0x00000200
+    PointerToRawData:     0x00002A00
+    PointerToRelocations: 0x00000000
+    PointerToLineNumbers: 0x00000000
+    NumberOfLineNumbers:  0
+    NumberOfRelocations:  0
+    Characteristics:      IMAGE_SCN_ALIGN_1024BYTES
+                          IMAGE_SCN_ALIGN_16BYTES
+                          IMAGE_SCN_ALIGN_1BYTES
+                          IMAGE_SCN_ALIGN_256BYTES
+                          IMAGE_SCN_ALIGN_2BYTES
+                          IMAGE_SCN_ALIGN_32BYTES
+                          IMAGE_SCN_ALIGN_4096BYTES
+                          IMAGE_SCN_ALIGN_4BYTES
+                          IMAGE_SCN_ALIGN_512BYTES
+                          IMAGE_SCN_ALIGN_64BYTES
+                          IMAGE_SCN_ALIGN_8192BYTES
+                          IMAGE_SCN_ALIGN_MASK
+                          IMAGE_SCN_CNT_INITIALIZED_DATA
+                          IMAGE_SCN_MEM_READ
+                          IMAGE_SCN_MEM_WRITE
+    Entropy:              0.270919
+
+.tls:
+    MD5:                  f1db91b86ca0c56dfcbb593282af3f7b
+    SHA1:                 8bdd29cb91729b0044df1aca9fd0c934961a6c6f
+    SHA256:               bd4a931d3d6593020d5d50934fcd5c631399ec99b07cccb1b7babf9c8ed20dbc
+    SHA3:                 78ff7fe0edbcafde750bb5253f7e9cc172051e31617bc1ba6090230c13b83bf5
+    VirtualSize:          0x00000020
+    VirtualAddress:       0x00008000
+    SizeOfRawData:        0x00000200
+    PointerToRawData:     0x00002C00
+    PointerToRelocations: 0x00000000
+    PointerToLineNumbers: 0x00000000
+    NumberOfLineNumbers:  0
+    NumberOfRelocations:  0
+    Characteristics:      IMAGE_SCN_ALIGN_1024BYTES
+                          IMAGE_SCN_ALIGN_16BYTES
+                          IMAGE_SCN_ALIGN_1BYTES
+                          IMAGE_SCN_ALIGN_256BYTES
+                          IMAGE_SCN_ALIGN_2BYTES
+                          IMAGE_SCN_ALIGN_32BYTES
+                          IMAGE_SCN_ALIGN_4096BYTES
+                          IMAGE_SCN_ALIGN_4BYTES
+                          IMAGE_SCN_ALIGN_512BYTES
+                          IMAGE_SCN_ALIGN_64BYTES
+                          IMAGE_SCN_ALIGN_8192BYTES
+                          IMAGE_SCN_ALIGN_MASK
+                          IMAGE_SCN_CNT_INITIALIZED_DATA
+                          IMAGE_SCN_MEM_READ
+                          IMAGE_SCN_MEM_WRITE
+    Entropy:              0.204488
+
+/4:
+    MD5:                  d5324ab605b376afa35e4bf42fb8371f
+    SHA1:                 4868dd8f4ba0e458def7f5a630cdef404ed43b37
+    SHA256:               c8ba00efd62898f58f609e7a1411fe3ef6a1dc9853a28fd0326661fe0203f9bf
+    SHA3:                 046935a18ea3a965c8b446250321198f1b7ba29833f28e551bd3a98f7ae65c55
+    VirtualSize:          0x000002D8
+    VirtualAddress:       0x00009000
+    SizeOfRawData:        0x00000400
+    PointerToRawData:     0x00002E00
+    PointerToRelocations: 0x00000000
+    PointerToLineNumbers: 0x00000000
+    NumberOfLineNumbers:  0
+    NumberOfRelocations:  0
+    Characteristics:      IMAGE_SCN_ALIGN_16BYTES
+                          IMAGE_SCN_ALIGN_2048BYTES
+                          IMAGE_SCN_ALIGN_32BYTES
+                          IMAGE_SCN_ALIGN_4096BYTES
+                          IMAGE_SCN_ALIGN_64BYTES
+                          IMAGE_SCN_ALIGN_8192BYTES
+                          IMAGE_SCN_ALIGN_8BYTES
+                          IMAGE_SCN_ALIGN_MASK
+                          IMAGE_SCN_CNT_INITIALIZED_DATA
+                          IMAGE_SCN_MEM_DISCARDABLE
+                          IMAGE_SCN_MEM_READ
+    Entropy:              1.64735
+
+/19:
+    MD5:                  4b3cf150bcfc3505b29f8172064092a8
+    SHA1:                 458dcb2eb3f358b8dbb58973a60459b2a1b80f9c
+    SHA256:               8b8efb2480543ff3051a0545706020067074d45338d3fa0098aea484cc2e38ab
+    SHA3:                 1e5ec80ab999c393d5ae9ced24002f8e795ce178fa7517c1fd8229034887e781
+    VirtualSize:          0x0000A6D5
+    VirtualAddress:       0x0000A000
+    SizeOfRawData:        0x0000A800
+    PointerToRawData:     0x00003200
+    PointerToRelocations: 0x00000000
+    PointerToLineNumbers: 0x00000000
+    NumberOfLineNumbers:  0
+    NumberOfRelocations:  0
+    Characteristics:      IMAGE_SCN_ALIGN_1024BYTES
+                          IMAGE_SCN_ALIGN_16BYTES
+                          IMAGE_SCN_ALIGN_1BYTES
+                          IMAGE_SCN_ALIGN_256BYTES
+                          IMAGE_SCN_ALIGN_4096BYTES
+                          IMAGE_SCN_ALIGN_4BYTES
+                          IMAGE_SCN_ALIGN_64BYTES
+                          IMAGE_SCN_ALIGN_MASK
+                          IMAGE_SCN_CNT_INITIALIZED_DATA
+                          IMAGE_SCN_MEM_DISCARDABLE
+                          IMAGE_SCN_MEM_READ
+    Entropy:              6.03245
+
+/31:
+    MD5:                  eaa99a75e78ce28c52fd27cadacade6d
+    SHA1:                 b23bb0d87cc7fd9cf0db7eed4bb3ee72ddce7f59
+    SHA256:               88220c5a4ef2502c3779ad45d7370c20852ebee4508e535cdb4efd31067d6a2c
+    SHA3:                 eaaeb67dd425a650051b1ce8b7517d6f0a906f75d1614e9331421a8aad76e632
+    VirtualSize:          0x0000199E
+    VirtualAddress:       0x00015000
+    SizeOfRawData:        0x00001A00
+    PointerToRawData:     0x0000DA00
+    PointerToRelocations: 0x00000000
+    PointerToLineNumbers: 0x00000000
+    NumberOfLineNumbers:  0
+    NumberOfRelocations:  0
+    Characteristics:      IMAGE_SCN_ALIGN_1024BYTES
+                          IMAGE_SCN_ALIGN_16BYTES
+                          IMAGE_SCN_ALIGN_1BYTES
+                          IMAGE_SCN_ALIGN_256BYTES
+                          IMAGE_SCN_ALIGN_4096BYTES
+                          IMAGE_SCN_ALIGN_4BYTES
+                          IMAGE_SCN_ALIGN_64BYTES
+                          IMAGE_SCN_ALIGN_MASK
+                          IMAGE_SCN_CNT_INITIALIZED_DATA
+                          IMAGE_SCN_MEM_DISCARDABLE
+                          IMAGE_SCN_MEM_READ
+    Entropy:              4.60664
+
+/45:
+    MD5:                  bfcda2dd459474dbac37a623363b0d36
+    SHA1:                 3bd0261e874eed15c04825c7524f5babbea889ef
+    SHA256:               6b446e5a24daae809411fea84104d27896c3ac85095562c43b2fae56c63f1637
+    SHA3:                 292984458922aeca0c75660e9d47fa6547fe58532d5788c95d8f99e51509971c
+    VirtualSize:          0x000018F3
+    VirtualAddress:       0x00017000
+    SizeOfRawData:        0x00001A00
+    PointerToRawData:     0x0000F400
+    PointerToRelocations: 0x00000000
+    PointerToLineNumbers: 0x00000000
+    NumberOfLineNumbers:  0
+    NumberOfRelocations:  0
+    Characteristics:      IMAGE_SCN_ALIGN_1024BYTES
+                          IMAGE_SCN_ALIGN_16BYTES
+                          IMAGE_SCN_ALIGN_1BYTES
+                          IMAGE_SCN_ALIGN_256BYTES
+                          IMAGE_SCN_ALIGN_4096BYTES
+                          IMAGE_SCN_ALIGN_4BYTES
+                          IMAGE_SCN_ALIGN_64BYTES
+                          IMAGE_SCN_ALIGN_MASK
+                          IMAGE_SCN_CNT_INITIALIZED_DATA
+                          IMAGE_SCN_MEM_DISCARDABLE
+                          IMAGE_SCN_MEM_READ
+    Entropy:              5.5162
+
+/57:
+    MD5:                  f9d0395600f8d2563aef73ee3c39f85e
+    SHA1:                 540f00ee5414b2fda2b03a9af1cd66d98b16cad9
+    SHA256:               10de396e26a86495d66955fa10cbfc34e47ad0dc7c866652b70166d0306e0d3b
+    SHA3:                 ca2fbb1e3527bec327826d5d05953f0a95186396558f9736c727fc07f045930d
+    VirtualSize:          0x00000780
+    VirtualAddress:       0x00019000
+    SizeOfRawData:        0x00000800
+    PointerToRawData:     0x00010E00
+    PointerToRelocations: 0x00000000
+    PointerToLineNumbers: 0x00000000
+    NumberOfLineNumbers:  0
+    NumberOfRelocations:  0
+    Characteristics:      IMAGE_SCN_ALIGN_1024BYTES
+                          IMAGE_SCN_ALIGN_16BYTES
+                          IMAGE_SCN_ALIGN_1BYTES
+                          IMAGE_SCN_ALIGN_256BYTES
+                          IMAGE_SCN_ALIGN_2BYTES
+                          IMAGE_SCN_ALIGN_32BYTES
+                          IMAGE_SCN_ALIGN_4096BYTES
+                          IMAGE_SCN_ALIGN_4BYTES
+                          IMAGE_SCN_ALIGN_512BYTES
+                          IMAGE_SCN_ALIGN_64BYTES
+                          IMAGE_SCN_ALIGN_8192BYTES
+                          IMAGE_SCN_ALIGN_MASK
+                          IMAGE_SCN_CNT_INITIALIZED_DATA
+                          IMAGE_SCN_MEM_DISCARDABLE
+                          IMAGE_SCN_MEM_READ
+    Entropy:              4.51051
+
+/70:
+    MD5:                  fe5487f768c36a9e2d1ac66a05aea4ef
+    SHA1:                 058f942669dee3354fb5ed4bfde70fad2013303e
+    SHA256:               29234094f5ccf639b9ca55e40beabc9a33a26eb3a5c684d94d6f10155f910b7c
+    SHA3:                 d3795f701d0908a50dd71f2de10155f77bf44149bbb2d6bfb884789c7ef18464
+    VirtualSize:          0x000002F2
+    VirtualAddress:       0x0001A000
+    SizeOfRawData:        0x00000400
+    PointerToRawData:     0x00011600
+    PointerToRelocations: 0x00000000
+    PointerToLineNumbers: 0x00000000
+    NumberOfLineNumbers:  0
+    NumberOfRelocations:  0
+    Characteristics:      IMAGE_SCN_ALIGN_1024BYTES
+                          IMAGE_SCN_ALIGN_16BYTES
+                          IMAGE_SCN_ALIGN_1BYTES
+                          IMAGE_SCN_ALIGN_256BYTES
+                          IMAGE_SCN_ALIGN_4096BYTES
+                          IMAGE_SCN_ALIGN_4BYTES
+                          IMAGE_SCN_ALIGN_64BYTES
+                          IMAGE_SCN_ALIGN_MASK
+                          IMAGE_SCN_CNT_INITIALIZED_DATA
+                          IMAGE_SCN_MEM_DISCARDABLE
+                          IMAGE_SCN_MEM_READ
+    Entropy:              4.14984
+
+/81:
+    MD5:                  237f239bb9c2377793218475c09bdcb9
+    SHA1:                 4be4b15db97b90285246706157ee8318d628194f
+    SHA256:               8dfa7b45930fa23e9e94ab8c6aeb7a8e9606043166d85fee0b9cdec7daa0fcdc
+    SHA3:                 dfeecd880b17a39ae6bbdbb71f6fbae632915e87a09162722280c44ab425e2f3
+    VirtualSize:          0x00000D1E
+    VirtualAddress:       0x0001B000
+    SizeOfRawData:        0x00000E00
+    PointerToRawData:     0x00011A00
+    PointerToRelocations: 0x00000000
+    PointerToLineNumbers: 0x00000000
+    NumberOfLineNumbers:  0
+    NumberOfRelocations:  0
+    Characteristics:      IMAGE_SCN_ALIGN_1024BYTES
+                          IMAGE_SCN_ALIGN_16BYTES
+                          IMAGE_SCN_ALIGN_1BYTES
+                          IMAGE_SCN_ALIGN_256BYTES
+                          IMAGE_SCN_ALIGN_4096BYTES
+                          IMAGE_SCN_ALIGN_4BYTES
+                          IMAGE_SCN_ALIGN_64BYTES
+                          IMAGE_SCN_ALIGN_MASK
+                          IMAGE_SCN_CNT_INITIALIZED_DATA
+                          IMAGE_SCN_MEM_DISCARDABLE
+                          IMAGE_SCN_MEM_READ
+    Entropy:              3.13533
+
+/92:
+    MD5:                  c81454e693a64ba511c4347cc00f5594
+    SHA1:                 9429d271284190737851d32397b3560c19364ca0
+    SHA256:               bf6c638347ea1c78cfc6b169dbcd10a1c05eaa6e06bd8dd14f6c8a9ea65338ec
+    SHA3:                 4f553a83a5e9fb1ac579d7a8ba58e4a42a98f0c3ca5f8b41cb799ed4a835146a
+    VirtualSize:          0x00000230
+    VirtualAddress:       0x0001C000
+    SizeOfRawData:        0x00000400
+    PointerToRawData:     0x00012800
+    PointerToRelocations: 0x00000000
+    PointerToLineNumbers: 0x00000000
+    NumberOfLineNumbers:  0
+    NumberOfRelocations:  0
+    Characteristics:      IMAGE_SCN_ALIGN_1024BYTES
+                          IMAGE_SCN_ALIGN_16BYTES
+                          IMAGE_SCN_ALIGN_1BYTES
+                          IMAGE_SCN_ALIGN_256BYTES
+                          IMAGE_SCN_ALIGN_4096BYTES
+                          IMAGE_SCN_ALIGN_4BYTES
+                          IMAGE_SCN_ALIGN_64BYTES
+                          IMAGE_SCN_ALIGN_MASK
+                          IMAGE_SCN_CNT_INITIALIZED_DATA
+                          IMAGE_SCN_MEM_DISCARDABLE
+                          IMAGE_SCN_MEM_READ
+    Entropy:              1.61691
+
+
+Imports:
+--------
+KERNEL32.dll: DeleteCriticalSection
+              EnterCriticalSection
+              GetCurrentProcess
+              GetCurrentProcessId
+              GetCurrentThreadId
+              GetLastError
+              GetStartupInfoA
+              GetSystemTimeAsFileTime
+              GetTickCount
+              InitializeCriticalSection
+              LeaveCriticalSection
+              QueryPerformanceCounter
+              SetUnhandledExceptionFilter
+              Sleep
+              TerminateProcess
+              TlsGetValue
+              UnhandledExceptionFilter
+              VirtualProtect
+              VirtualQuery
+msvcrt.dll:   __dllonexit
+              __getmainargs
+              __initenv
+              __lconv_init
+              __set_app_type
+              __setusermatherr
+              _acmdln
+              _amsg_exit
+              _cexit
+              _fmode
+              _initterm
+              _iob
+              _lock
+              _onexit
+              _unlock
+              abort
+              calloc
+              exit
+              fprintf
+              free
+              fwrite
+              malloc
+              memcpy
+              puts
+              scanf
+              signal
+              strlen
+              strncmp
+              vfprintf
+
+Hashes:
+-------
+MD5:          02263a0c8cb038dc23562918ca99b18e
+SHA1:         899ad0c7b557eb5f5953870c940232a84f3ca3d1
+SHA256:       69ca72317aadb66b591c2134dc99fa492ba00b1e6ae5aa13c6c811be2bd6e823
+SHA3:         1b921a10d048fabc5db4217ff0e637b30c54ab45d4e46887f75d3e07e5315df2
+SSDeep:       1536:ov5iTWGcnYWyCqOtu3yUyJCbLwWc7gdRJ:oYCGc5yCX0nd
+Imports Hash: e32e4ab7e033e5a567cb1388cb6f2758
+
+
