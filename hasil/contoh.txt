@@ -1,1 +1,6 @@
 Contoh hasil PE Dump
+
+Manalyze = 490
+pefile   = 506
+Lief     = 1142
+PE-Parse = 5711
